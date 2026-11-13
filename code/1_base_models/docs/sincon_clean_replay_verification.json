@@ -1,0 +1,20 @@
+{
+  "official_id_rows": 157194,
+  "columns": [
+    "example_id",
+    "boardings"
+  ],
+  "finite_nonnegative": true,
+  "sha256": "519c88bd46e991677316175a2d24f802db6248ebb7d3971ecbe75477532f2199",
+  "independent_cli_replays_byte_identical": true,
+  "separate_stage_run_max_absolute_prediction_difference": 2.5011104298755527e-12,
+  "separate_stage_run_max_absolute_log_difference": 2.6645352591003757e-15,
+  "replayed_with_public_derived_prediction_files_denied": true,
+  "previous_event_hours_preserved_during_model_stage": 810,
+  "final_event_changes": {
+    "dream_park": 43,
+    "science_refinement": 12,
+    "neunghudae": 2,
+    "trail_festival": 2
+  }
+}

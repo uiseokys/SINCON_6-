@@ -1,0 +1,588 @@
+{
+  "files": [
+    {
+      "path": "data/train.csv",
+      "source_scope": "project",
+      "source": "hourbias_delivery/data/train.csv",
+      "role": "subway_observations",
+      "sha256": "1b3b21e8f1fe22a44c0ff4adba315784a5c21caea25098a15869c4ed370822bc",
+      "bytes": 18210560
+    },
+    {
+      "path": "data/test.csv",
+      "source_scope": "project",
+      "source": "hourbias_delivery/data/test.csv",
+      "role": "unlabeled_test_keys",
+      "sha256": "d257fed268db7919fd8fbc45b6c78dfbdb09b6bb40d4ae1d3f2a666c6e69fefa",
+      "bytes": 4209338
+    },
+    {
+      "path": "cache/hourbias_history_oof.csv.gz",
+      "source_scope": "project",
+      "source": "hourbias_delivery/cache/hourbias_history_oof.csv.gz",
+      "role": "historical_oof_with_labels",
+      "sha256": "e94f97bdf7ce0b9786d774c9b3ffe1297ec3291f69d933665ac1b425d06cfebc",
+      "bytes": 5908994
+    },
+    {
+      "path": "cache/calendar_flags.csv",
+      "source_scope": "project",
+      "source": "hourbias_delivery/cache/calendar_flags.csv",
+      "role": "calendar_or_event_metadata",
+      "sha256": "bec3a33a605853f53e521ac73021ec794640379ea689a84c210f32b136ba0e4c",
+      "bytes": 12774
+    },
+    {
+      "path": "cache/events_frozen_v3.csv",
+      "source_scope": "project",
+      "source": "hourbias_delivery/cache/events_frozen_v3.csv",
+      "role": "calendar_or_event_metadata",
+      "sha256": "9521541af1b5264ce79aacf1bd425c149f3ecaf4c17208c2e4782986f0f4da3f",
+      "bytes": 17299
+    },
+    {
+      "path": "cache/protected_event_keys.csv",
+      "source_scope": "project",
+      "source": "hourbias_delivery/cache/protected_event_keys.csv",
+      "role": "calendar_or_event_metadata",
+      "sha256": "be94d181e8b423f37264515158270daf9c39c3623a13106d85ff8d509ad2fadd",
+      "bytes": 8050
+    },
+    {
+      "path": "cache/downstream_oof_nested_main.csv.gz",
+      "source_scope": "project",
+      "source": "night13/measurements/downstream_oof_nested_main.csv.gz",
+      "role": "historical_oof_with_labels",
+      "sha256": "ef95f26d7ca7cbf3283a852fc25f37daf97af120d6e0a0ef972c46a37737d73a",
+      "bytes": 39374418
+    },
+    {
+      "path": "cache/calendar_features.csv",
+      "source_scope": "project",
+      "source": "final_package/payload/work/external_inputs/calendar_features.csv",
+      "role": "calendar_or_event_metadata",
+      "sha256": "514fe1ba45a539ed06dc81747117288c99b6e81dbace4a7c68e671b4c3cd7fc0",
+      "bytes": 82252
+    },
+    {
+      "path": "cache/events_daily.csv",
+      "source_scope": "project",
+      "source": "final_package/payload/work/external_inputs/external/events_daily.csv",
+      "role": "calendar_or_event_metadata",
+      "sha256": "79f2c283f937df8359ddbb2a5ba280693866d8da703e80e9e14b70e458288473",
+      "bytes": 7762
+    },
+    {
+      "path": "cache/festival_station_days.csv",
+      "source_scope": "project",
+      "source": "final_package/payload/work/sincon_festival_station_days.csv",
+      "role": "calendar_or_event_metadata",
+      "sha256": "b8a89d924b2695ecb32c4116615eb07be43ce98541e684a405a4c460cbd8105f",
+      "bytes": 74782
+    },
+    {
+      "path": "cache/historical_concerts.csv",
+      "source_scope": "project",
+      "source": "final_delivery_v2/cache/historical_concerts.csv",
+      "role": "calendar_or_event_metadata",
+      "sha256": "762716660a5fb96439a0a361b77fa581275dbfbd9e06df3ed96ee3edc8de0087",
+      "bytes": 3724
+    },
+    {
+      "path": "reference/submission_night_v4_main.csv",
+      "source_scope": "project",
+      "source": "final_delivery_v2/reference/submission_night_v4_main.csv",
+      "role": "comparison_prediction",
+      "sha256": "4c85257294be267c47396587f3a71a2d1e238dc93f957a634cfe662f8e379965",
+      "bytes": 4145176
+    },
+    {
+      "path": "reference/submission_k1_hourbias.csv",
+      "source_scope": "project",
+      "source": "hourbias_delivery/reference/submission_k1_hourbias.csv",
+      "role": "comparison_prediction",
+      "sha256": "b8d7499f2151efb85c3c3496cb27a16538f1dba8b6009914b655558c338cb1fb",
+      "bytes": 4145877
+    },
+    {
+      "path": "reference/submission_k3_hourbias_holiday_events.csv",
+      "source_scope": "project",
+      "source": "hourbias_delivery/reference/submission_k3_hourbias_holiday_events.csv",
+      "role": "comparison_prediction",
+      "sha256": "92a0f8dd6b0fa3f2ebea7b67355b4c426bb4ca200c6c24f4563a02d2cd9c0962",
+      "bytes": 4145871
+    },
+    {
+      "path": "inputs/submission_monday_main.csv",
+      "source_scope": "project",
+      "source": "hourbias_delivery/reference/submission_monday_main.csv",
+      "role": "archived_K2_prediction",
+      "sha256": "f503ec6079535040d9c78c4fa23590c406594005f11a0a6edb8349a2a8eb944c",
+      "bytes": 4226756
+    },
+    {
+      "path": "inputs/submission_night_v4_main_cup_walk.csv",
+      "source_scope": "project",
+      "source": "hourbias_delivery/reference/submission_night_v4_main_cup_walk.csv",
+      "role": "archived_K2_prediction",
+      "sha256": "1ee35f4d5808974e7c2c54756fd7bff5123f31e4dc7d2ab4ac98a3c34aced37b",
+      "bytes": 4145127
+    },
+    {
+      "path": "reference/submission_k3_geomdan_plave.csv",
+      "source_scope": "project",
+      "source": "goal_014/release/submission_k3_geomdan_plave.csv",
+      "role": "comparison_prediction",
+      "sha256": "05e0af686e92c9d1e44c0f2ed0b0ae57b1c4895a54fd6ba3421a95c426c77b04",
+      "bytes": 4145885
+    },
+    {
+      "path": "reference/submission_k3_geomdan_plave_seasonal_refit.csv",
+      "source_scope": "project",
+      "source": "goal_014/release/submission_k3_geomdan_plave_seasonal_refit.csv",
+      "role": "comparison_prediction",
+      "sha256": "e46feb831db69a8805317aced422abe2e443e006779e0b476048caf73afddcbb",
+      "bytes": 4145499
+    },
+    {
+      "path": "reference/submission_l1_hourly_curvature.csv",
+      "source_scope": "project",
+      "source": "goal_014/graph_clean/submission_l1_hourly_curvature.csv",
+      "role": "comparison_prediction",
+      "sha256": "3d9a6f4f3eb2653321835f2873fc6695bff76dbdb78fcab7fac74a9250c97e97",
+      "bytes": 4145779
+    },
+    {
+      "path": "reference/submission_set2_l1_on_refit.csv",
+      "source_scope": "project",
+      "source": "xgb7_inputs/submission_set2_l1_on_refit.csv",
+      "role": "comparison_prediction",
+      "sha256": "1edf020db6b728611f617a153a5052afcf058edade19ff5e284ea3c57e0ed59c",
+      "bytes": 4145516
+    },
+    {
+      "path": "reference/submission_xgb7_w10_on_curvature.csv",
+      "source_scope": "project",
+      "source": "xgb7_inputs/submission_xgb7_w10_on_curvature.csv",
+      "role": "comparison_prediction",
+      "sha256": "596876180bb00eda250041cc6cf8ada4c6aa4702547f7e14a94ffe1340e3b1a6",
+      "bytes": 4145973
+    },
+    {
+      "path": "predictions/xgb_test.npy",
+      "source_scope": "project",
+      "source": "xgb7_inputs/predictions/xgb_test.npy",
+      "role": "archived_test_log_prediction",
+      "sha256": "b6cf465f83d8450d26ef843223078d95556393c2f589c4d4f9e0e2ccd9b62704",
+      "bytes": 628904
+    },
+    {
+      "path": "predictions/lgb_test.npy",
+      "source_scope": "project",
+      "source": "xgb7_inputs/predictions/lgb_test.npy",
+      "role": "archived_test_log_prediction",
+      "sha256": "00479a3c6b3556bad04e72ee7e549201cc3cee89da7eef1d0ded4948d8a7691f",
+      "bytes": 1257680
+    },
+    {
+      "path": "predictions/base_test_s0.npy",
+      "source_scope": "project",
+      "source": "xgb7_inputs/predictions/base_test_s0.npy",
+      "role": "archived_test_log_prediction",
+      "sha256": "5d1e2ee847e2675c716a699879ad7b75bf958de5c4b8c4b6e60fd7775a8f60c6",
+      "bytes": 628904
+    },
+    {
+      "path": "predictions/base_test_s1.npy",
+      "source_scope": "project",
+      "source": "xgb7_inputs/predictions/base_test_s1.npy",
+      "role": "archived_test_log_prediction",
+      "sha256": "d1cf552a1f7197279ed91b1e9c27c95a7804faa3d29e047d1ba784a73a247d39",
+      "bytes": 628904
+    },
+    {
+      "path": "predictions/base_test_s2.npy",
+      "source_scope": "project",
+      "source": "xgb7_inputs/predictions/base_test_s2.npy",
+      "role": "archived_test_log_prediction",
+      "sha256": "c24852ef4a7912f4f784182e1ac22dcb590383ab8592d94280c17ef95d9d6158",
+      "bytes": 628904
+    },
+    {
+      "path": "predictions/base_test_s3.npy",
+      "source_scope": "project",
+      "source": "xgb7_inputs/predictions/base_test_s3.npy",
+      "role": "archived_test_log_prediction",
+      "sha256": "fae93ed7eef4c6815d15cc840bdc4a1a301b785cfb82fdba336456da89014691",
+      "bytes": 628904
+    },
+    {
+      "path": "hourbias_layer.py",
+      "source_scope": "project",
+      "source": "hourbias_delivery/hourbias_layer.py",
+      "role": "runtime_code_unchanged",
+      "sha256": "41b8fd67c3086804c7e25f7c748243fcfacce16feecd50df219e680e2a552507",
+      "bytes": 6813
+    },
+    {
+      "path": "training_scripts/xgb_test.py",
+      "source_scope": "project",
+      "source": "xgb7_inputs/scripts/xgb_test.py",
+      "role": "training_code_unchanged",
+      "sha256": "d734a504482212865710e857e736feccc3653b3f821dfdb1c191ea4db1b5ecad",
+      "bytes": 1269
+    },
+    {
+      "path": "training_scripts/run3.py",
+      "source_scope": "project",
+      "source": "xgb7_inputs/scripts/run3.py",
+      "role": "training_code_unchanged",
+      "sha256": "e0d78360feb101775eb0d352fcadafe77cdc928319a6db8e22d86e530cf306a9",
+      "bytes": 2995
+    },
+    {
+      "path": "training_scripts/run2.py",
+      "source_scope": "project",
+      "source": "xgb7_inputs/scripts/run2.py",
+      "role": "training_code_unchanged",
+      "sha256": "d6d295740e4970b2ad94a5ddd413d3ba80498460ed5ca2510ca39b07e9299820",
+      "bytes": 6488
+    },
+    {
+      "path": "training_scripts/prep.py",
+      "source_scope": "project",
+      "source": "xgb7_inputs/scripts/prep.py",
+      "role": "training_code_unchanged",
+      "sha256": "37f2a08aff6a553472204823f402d0b0babaa217a93799e060b3bcde78bec7e0",
+      "bytes": 662
+    },
+    {
+      "path": "training_scripts/prep_test.py",
+      "source_scope": "project",
+      "source": "xgb7_inputs/scripts/prep_test.py",
+      "role": "training_code_unchanged",
+      "sha256": "750f8f96a05e657b59e67ebe0af04f7aad853382eb3e464ffd00f4c1041c95c1",
+      "bytes": 734
+    },
+    {
+      "path": "evidence/CANDIDATE_SET_PREREGISTRATION.md",
+      "source_scope": "team_baseline",
+      "source": "CANDIDATE_SET_PREREGISTRATION.md",
+      "role": "historical_evidence_snapshot",
+      "sha256": "7bc78bfb0cb44010b9e79d5fb9b6af26c95f27a4c33bac32afac6c5f30457ce2",
+      "bytes": 7247
+    },
+    {
+      "path": "evidence/CANDIDATE_SET2_PREREGISTRATION.md",
+      "source_scope": "team_baseline",
+      "source": "CANDIDATE_SET2_PREREGISTRATION.md",
+      "role": "historical_evidence_snapshot",
+      "sha256": "8e723f6b719a5bfecbddb0c6229b6646efe0884f83cb227a8dfa2eb49b0b5d66",
+      "bytes": 34009
+    },
+    {
+      "path": "evidence/STACK_AUDIT_1113.md",
+      "source_scope": "team_baseline",
+      "source": "STACK_AUDIT_1113.md",
+      "role": "historical_evidence_snapshot",
+      "sha256": "e3aee5519c9140c3321779b4cbbd53c215d27621a563cd591f13d2ed5756370e",
+      "bytes": 5090
+    },
+    {
+      "path": "evidence/KSET_CODEX_COMBINATIONS.md",
+      "source_scope": "project",
+      "source": "goal_014/release/KSET_CODEX_COMBINATIONS.md",
+      "role": "historical_evidence_snapshot",
+      "sha256": "c99deb3489929e55962caa30d8a0276af43df088b5593876321700d3c77a9e3f",
+      "bytes": 4956
+    },
+    {
+      "path": "evidence/NIGHT_V4_GEOMDAN3107.md",
+      "source_scope": "project",
+      "source": "goal_014/release/NIGHT_V4_GEOMDAN3107.md",
+      "role": "historical_evidence_snapshot",
+      "sha256": "4f6555635df77e58bcac87bbcea092db6f9736bba602779a7c1e336cbf276a13",
+      "bytes": 3134
+    },
+    {
+      "path": "evidence/NIGHT_V4_PLAVE_IN_SHOW.md",
+      "source_scope": "project",
+      "source": "goal_014/release/NIGHT_V4_PLAVE_IN_SHOW.md",
+      "role": "historical_evidence_snapshot",
+      "sha256": "741df0a95ae8fcee4036f51e3586f1f0d89872e37fed9f8e8a3f7bb725e095ae",
+      "bytes": 3297
+    },
+    {
+      "path": "evidence/NIGHT_V4_CUP_WALK.md",
+      "source_scope": "project",
+      "source": "goal_014/release/NIGHT_V4_CUP_WALK.md",
+      "role": "historical_evidence_snapshot",
+      "sha256": "58122073e7fb622ad5efcf3c1cf7b510466e8453548a480919a6aabf5a4a6729",
+      "bytes": 3037
+    },
+    {
+      "path": "evidence/NIGHT_V4_GEOMDAN_PLAVE.md",
+      "source_scope": "project",
+      "source": "goal_014/release/NIGHT_V4_GEOMDAN_PLAVE.md",
+      "role": "historical_evidence_snapshot",
+      "sha256": "f77c8770dbd1790b660f80942f023f7886f8b087cff5ab4edb3ff757b1b41e38",
+      "bytes": 3588
+    },
+    {
+      "path": "evidence/NIGHT_V4_SEASONAL_SHAPE.md",
+      "source_scope": "project",
+      "source": "goal_014/release/NIGHT_V4_SEASONAL_SHAPE.md",
+      "role": "historical_evidence_snapshot",
+      "sha256": "fe6c223e22feaef94e732293fefe81c92b8036a5790a204d473bbe61faeb61ac",
+      "bytes": 3161
+    },
+    {
+      "path": "evidence/l1_hourly_curvature.json",
+      "source_scope": "project",
+      "source": "goal_014/graph_clean/l1_hourly_curvature.json",
+      "role": "historical_evidence_snapshot",
+      "sha256": "20ab024374ba132e61b910629c961d0499dee369b25e96c9275fa66c4e52dd03",
+      "bytes": 13682
+    },
+    {
+      "path": "evidence/kset_combined_validation_nested.json",
+      "source_scope": "project",
+      "source": "goal_014/release/kset_combined_validation_nested.json",
+      "role": "historical_evidence_snapshot",
+      "sha256": "ced0431e27e4c916edd58ec135d509fff2c7946b6b803147ca18490f5e807f4a",
+      "bytes": 10814
+    },
+    {
+      "path": "evidence/v4_plave_in_show_report.json",
+      "source_scope": "project",
+      "source": "goal_014/bottleneck/v4_plave_in_show_report.json",
+      "role": "historical_evidence_snapshot",
+      "sha256": "f91ab4fba0f459d6b6ac36f4379ee3bb6511579a015e42379137f5c7015f1acf",
+      "bytes": 3394
+    },
+    {
+      "path": "evidence/v4_geomdan_weekday_report.json",
+      "source_scope": "project",
+      "source": "goal_014/housing/v4_geomdan_weekday_report.json",
+      "role": "historical_evidence_snapshot",
+      "sha256": "87246f0f627e101868f088444bca9fb9ee5f7cab9730f44924c4f52de69a9778",
+      "bytes": 29669
+    },
+    {
+      "path": "evidence/k1_residual_replay.json",
+      "source_scope": "project",
+      "source": "goal_014/graph_clean/k1_residual_replay.json",
+      "role": "historical_evidence_snapshot",
+      "sha256": "1c5c36ad863fe5aff1c84cae1328ac9712f251d48ef1163ab957712dfcd9c038",
+      "bytes": 16459
+    },
+    {
+      "path": "evidence/v4_validation.json",
+      "source_scope": "project",
+      "source": "goal_014/graph_clean/v4_validation.json",
+      "role": "historical_evidence_snapshot",
+      "sha256": "c623a73a59e889343cc34bca2e7b735dacf5ccf11c1d74b6074660ce337f0eed",
+      "bytes": 14612
+    },
+    {
+      "path": "evidence/V4_ORDINARY_PROTOCOL.md",
+      "source_scope": "project",
+      "source": "goal_014/graph_clean/V4_ORDINARY_PROTOCOL.md",
+      "role": "historical_evidence_snapshot",
+      "sha256": "11c5c06647b8268cef6e61ae4cd5ae0f1e7e063bfbf23314df6879db5d374741",
+      "bytes": 1432
+    },
+    {
+      "path": "inputs/k2_overlay_keys.csv",
+      "source_scope": "derived",
+      "source": "original v4 versus the two archived K2 inputs, abs(log1p difference)>1e-12",
+      "role": "archived_overlay_scope",
+      "sha256": "d6a446626e96930a1e740cc134ea1516f97529dfb4e18e380ef59c413366ab9b",
+      "bytes": 70560
+    },
+    {
+      "path": "training_scripts/team_features/baseline.py",
+      "source_scope": "team_baseline",
+      "source": "baseline.py",
+      "role": "training_code_unchanged",
+      "sha256": "91c8a5603df320a6fdaf92f5e82fd82240417b8a30bc8f42ff551d205f452d57",
+      "bytes": 4843
+    },
+    {
+      "path": "training_scripts/team_features/ensemble.py",
+      "source_scope": "team_baseline",
+      "source": "ensemble.py",
+      "role": "training_code_unchanged",
+      "sha256": "e6d89db9fff2a518172330831c4160df3a06a7b8bc1535971a046149407f28bc",
+      "bytes": 11124
+    },
+    {
+      "path": "training_scripts/team_features/improved.py",
+      "source_scope": "team_baseline",
+      "source": "improved.py",
+      "role": "training_code_unchanged",
+      "sha256": "e6432ee2584af0fc8e3c0d17b74d60c001b0ae206611202b3ea374dff4d0c113",
+      "bytes": 8392
+    },
+    {
+      "path": "training_scripts/team_features/make_calendar.py",
+      "source_scope": "team_baseline",
+      "source": "make_calendar.py",
+      "role": "training_code_unchanged",
+      "sha256": "c115226ca98e9e92097d01154d2838d721b4ba3528b2f3dc14f30b0d2da3d90a",
+      "bytes": 7891
+    },
+    {
+      "path": "training_scripts/team_features/external_features.py",
+      "source_scope": "team_baseline",
+      "source": "external_features.py",
+      "role": "training_code_unchanged",
+      "sha256": "fd1779a895d4eccc1ce1d8389c3ee29392367b31a5662b8660185fed473cb88e",
+      "bytes": 6672
+    },
+    {
+      "path": "training_scripts/team_features/nn_model.py",
+      "source_scope": "team_baseline",
+      "source": "nn_model.py",
+      "role": "training_code_unchanged",
+      "sha256": "e8a560bcd396c870eeb2308eecffc5b6bba80e07cd63d2bc869d4fa17480b723",
+      "bytes": 5503
+    },
+    {
+      "path": "training_scripts/team_features/external/munhak_games.csv",
+      "source_scope": "team_baseline",
+      "source": "external/munhak_games.csv",
+      "role": "training_exogenous_metadata",
+      "sha256": "3c8c08b46df1181f2ea65b4f1ff8fb773ebb01ffa8152b5ac53bdbe5d21372a2",
+      "bytes": 63596
+    },
+    {
+      "path": "training_scripts/team_features/external/crowd_munhak.csv",
+      "source_scope": "team_baseline",
+      "source": "external/crowd_munhak.csv",
+      "role": "training_exogenous_metadata",
+      "sha256": "746cc00979c9f75dbed4e48de0c7d885d5ef54d9d882dceafaaf85b6e5634778",
+      "bytes": 5993
+    },
+    {
+      "path": "training_scripts/team_features/external/events_daily.csv",
+      "source_scope": "team_baseline",
+      "source": "external/events_daily.csv",
+      "role": "training_exogenous_metadata",
+      "sha256": "79f2c283f937df8359ddbb2a5ba280693866d8da703e80e9e14b70e458288473",
+      "bytes": 7762
+    },
+    {
+      "path": "training_scripts/team_features/external/school_calendar.csv",
+      "source_scope": "team_baseline",
+      "source": "external/school_calendar.csv",
+      "role": "training_exogenous_metadata",
+      "sha256": "3de3d179886c26c664cec2b6488b737baf9932e9ba1f0cfd35a253d73a24e192",
+      "bytes": 26820
+    },
+    {
+      "path": "training_scripts/team_features/external/weather_hourly.csv",
+      "source_scope": "team_baseline",
+      "source": "external/weather_hourly.csv",
+      "role": "training_exogenous_metadata",
+      "sha256": "bfbedff13f8cf7d724000a0e81b29798e4792d0e80859a03f6409106fe111482",
+      "bytes": 1644283
+    },
+    {
+      "path": "training_scripts/team_features/data/metaData.csv",
+      "source_scope": "team_baseline",
+      "source": "data/metaData.csv",
+      "role": "station_metadata",
+      "sha256": "9870dc6c9cbe7e6fc810bbe589dd9e06f309bb173a268a1bd63478f430785380",
+      "bytes": 3122
+    },
+    {
+      "path": "training_scripts/team_features/data/train.csv",
+      "source_scope": "project",
+      "source": "hourbias_delivery/data/train.csv",
+      "role": "subway_observations",
+      "sha256": "1b3b21e8f1fe22a44c0ff4adba315784a5c21caea25098a15869c4ed370822bc",
+      "bytes": 18210560
+    },
+    {
+      "path": "training_scripts/team_features/data/test.csv",
+      "source_scope": "project",
+      "source": "hourbias_delivery/data/test.csv",
+      "role": "unlabeled_test_keys",
+      "sha256": "d257fed268db7919fd8fbc45b6c78dfbdb09b6bb40d4ae1d3f2a666c6e69fefa",
+      "bytes": 4209338
+    }
+  ],
+  "function_extractions": [
+    {
+      "source": "goal_014/model/v4_seasonal_residual.py",
+      "source_sha256": "5e284d96c64caac32723b1fa3e98efc6ce7bedaecbaf5c0c4397a63c80c5d8e7",
+      "destination": "stack_seasonal.py",
+      "functions": [
+        "ordinary_rows",
+        "fit_correction"
+      ],
+      "function_bodies_unchanged": true
+    },
+    {
+      "source": "goal_014/housing/v4_geomdan_scale_probe.py",
+      "source_sha256": "8db4b72fbf16c8eb44eaa86d5cc3d5c28a82bb88373b424871890fc57a792873",
+      "destination": "stack_geomdan.py",
+      "functions": [
+        "quiet_days",
+        "recent_regimes"
+      ],
+      "function_bodies_unchanged": true
+    },
+    {
+      "source": "goal_014/bottleneck/build_v4_plave_in_show.py",
+      "source_sha256": "f3c4310b991d4cd1dbdbd4ef3132062760c1e29d8be086495b12d644aa5a0d6a",
+      "destination": "stack_plave.py",
+      "functions": [
+        "read_history",
+        "fit",
+        "backtest"
+      ],
+      "function_bodies_unchanged": true
+    },
+    {
+      "source": "goal_014/model/k3_network_variation.py",
+      "source_sha256": "e0bd1f2bf20ad799117bb31b2dda5d627c908c2d27501817716ab6f9b602fe2f",
+      "destination": "stack_curvature.py",
+      "functions": [
+        "ordinary"
+      ],
+      "function_bodies_unchanged": true
+    },
+    {
+      "source": "goal_014/graph_clean/l1_hourly_curvature.py",
+      "source_sha256": "2577f121c315bb24815283be699950ec3e261c753dc8f33cb5f361ef3bc159cd",
+      "destination": "stack_curvature.py",
+      "functions": [
+        "complete_profiles",
+        "anchor"
+      ],
+      "function_bodies_unchanged": true
+    },
+    {
+      "source": "goal_014/graph_clean/k1_residual_replay.py",
+      "source_sha256": "04ef263403fb2f7eb08bc5036b6a80d72a0bfea8839a09df543ba70899d836a3",
+      "destination": "stack_k1_archive.py",
+      "functions": [
+        "k1_stats",
+        "k1_apply",
+        "k1_quiet"
+      ],
+      "function_bodies_unchanged": true
+    },
+    {
+      "source": "goal_014/model/kset_combined_validation.py",
+      "source_sha256": "e7947aeea29ad92a70f5f6a7b27d952e116f130bf2a86fbc3de779d51b265f2b",
+      "destination": "stack_k1_archive.py",
+      "functions": [
+        "k1_archive"
+      ],
+      "function_bodies_unchanged": true
+    }
+  ]
+}

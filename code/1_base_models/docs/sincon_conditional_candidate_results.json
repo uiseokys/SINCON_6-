@@ -1,0 +1,47 @@
+{
+  "folds": {
+    "A": {
+      "rmsle": {
+        "team": 0.16611576722450255,
+        "joint": 0.16476331597952956,
+        "conditional_stack": 0.15790645883376872,
+        "withheld_bus_month": 0.15790277080662907
+      },
+      "seconds": 174.55,
+      "station_calibrated_with_earlier_oof": {
+        "team": 0.16584014337026032,
+        "joint": 0.163374266902448,
+        "conditional_stack": 0.16258746664675652,
+        "withheld_bus_month": 0.16204565679597013
+      }
+    },
+    "B": {
+      "rmsle": {
+        "team": 0.17840397582263975,
+        "joint": 0.17453024243652457,
+        "conditional_stack": 0.1698490417014533,
+        "withheld_bus_month": 0.17008517625369587
+      },
+      "seconds": 157.72,
+      "station_calibrated_with_earlier_oof": {
+        "team": 0.18140438963678762,
+        "joint": 0.1777241130193915,
+        "conditional_stack": 0.1790882626561099,
+        "withheld_bus_month": 0.17940621870544357
+      }
+    },
+    "C": {
+      "rmsle": {
+        "team": 0.17025985224570953,
+        "joint": 0.16681559501132304,
+        "conditional_stack": 0.1634708953945013,
+        "withheld_bus_month": 0.16345681733515086
+      },
+      "seconds": 115.37
+    }
+  },
+  "acceptance": {
+    "conditional_stack": 3,
+    "withheld_bus_month": 3
+  }
+}

@@ -1,0 +1,83 @@
+{
+ "2025-06-30": {
+  "transfer all w0.05": -0.0004582373915889282,
+  "transfer all w0.1": -0.0008698244627859397,
+  "transfer all w0.15": -0.001185802007689668,
+  "transfer ordinary w0.1": -0.0007251638248298442,
+  "pull to baseline shape only w0.1": -0.00031296456757429203,
+  "K1 base vs main (context)": 0.0,
+  "corr(shape error, expected shape change) hol": 0.029061780899406166
+ },
+ "2025-07-31": {
+  "transfer all w0.05": -0.00020421102936857283,
+  "transfer all w0.1": -0.00034232862699798416,
+  "transfer all w0.15": -0.00033337518241505215,
+  "transfer ordinary w0.1": -0.00019878024135319694,
+  "pull to baseline shape only w0.1": 0.0003918896702158059,
+  "K1 base vs main (context)": 0.0,
+  "corr(shape error, expected shape change) hol": 0.09924809106988967
+ },
+ "2025-08-31": {
+  "transfer all w0.05": 0.0002740851433570002,
+  "transfer all w0.1": 0.0006904030651220527,
+  "transfer all w0.15": 0.0012882351278825366,
+  "transfer ordinary w0.1": 0.0007339260391724389,
+  "pull to baseline shape only w0.1": 0.0013050319181056869,
+  "K1 base vs main (context)": 0.00010334787310373184,
+  "corr(shape error, expected shape change) hol": 0.1459075285353542
+ },
+ "2025-09-30": {
+  "transfer all w0.05": -0.00013954688330553022,
+  "transfer all w0.1": -9.089604067366586e-05,
+  "transfer all w0.15": 0.00014711776457676518,
+  "transfer ordinary w0.1": 7.132149118213582e-05,
+  "pull to baseline shape only w0.1": 0.0014238128713776055,
+  "K1 base vs main (context)": -8.174497655974444e-05,
+  "corr(shape error, expected shape change) hol": 0.18671121991676928
+ },
+ "2025-10-31": {
+  "transfer all w0.05": -0.00012944503635833882,
+  "transfer all w0.1": -3.1432129326242064e-05,
+  "transfer all w0.15": 0.00029201322468025426,
+  "transfer ordinary w0.1": -3.997546965206489e-05,
+  "pull to baseline shape only w0.1": 0.0012241697777331806,
+  "K1 base vs main (context)": -5.891589329415359e-05,
+  "corr(shape error, expected shape change) hol": 0.2204137038574772
+ },
+ "2025-12-31": {
+  "transfer all w0.05": -0.0005513686799720752,
+  "transfer all w0.1": -0.0009811656261347057,
+  "transfer all w0.15": -0.0013032700126991148,
+  "transfer ordinary w0.1": -0.000916560481190265,
+  "pull to baseline shape only w0.1": -2.7527254287840197e-05,
+  "K1 base vs main (context)": 6.093447928853801e-05,
+  "corr(shape error, expected shape change) hol": 0.009691375922686143
+ },
+ "2026-02-28": {
+  "transfer all w0.05": -7.28375043817231e-05,
+  "transfer all w0.1": -1.990477770730248e-05,
+  "transfer all w0.15": 0.00012402217668372462,
+  "transfer ordinary w0.1": 1.3432447138472803e-05,
+  "pull to baseline shape only w0.1": 0.0008049797475664644,
+  "K1 base vs main (context)": -0.0001907343446233556,
+  "corr(shape error, expected shape change) hol": -0.025321075486877384
+ },
+ "2026-03-31": {
+  "transfer all w0.05": -4.3949239109164484e-05,
+  "transfer all w0.1": -1.1673535348755149e-05,
+  "transfer all w0.15": 0.00011498063720788432,
+  "transfer ordinary w0.1": -9.875018986943429e-06,
+  "pull to baseline shape only w0.1": 0.0006697616391252992,
+  "K1 base vs main (context)": -0.0003798864081897002,
+  "corr(shape error, expected shape change) hol": 0.08173342952012073
+ },
+ "2026-04-30": {
+  "transfer all w0.05": -7.426418012851377e-05,
+  "transfer all w0.1": -0.0001219092597138649,
+  "transfer all w0.15": -0.0001101752021256952,
+  "transfer ordinary w0.1": -0.00011488272439436065,
+  "pull to baseline shape only w0.1": 0.0009547301862839752,
+  "K1 base vs main (context)": -0.0004924711760710132,
+  "corr(shape error, expected shape change) hol": 0.10143292879740609
+ }
+}

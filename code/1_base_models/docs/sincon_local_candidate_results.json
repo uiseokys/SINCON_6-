@@ -1,0 +1,53 @@
+{
+  "folds": {
+    "A": {
+      "rmsle": {
+        "team": 0.16611576722450255,
+        "joint": 0.16476331597952956,
+        "conditional_stack": 0.15790645883376872,
+        "withheld_bus_month": 0.15790277080662907,
+        "local_stack": 0.1523951258743134,
+        "local_without_last_bus_month": 0.15237264619509905
+      },
+      "seconds": 126.92,
+      "station_calibrated_with_earlier_oof": {
+        "team": 0.16584014337026032,
+        "joint": 0.163374266902448,
+        "conditional_stack": 0.16258746664675652,
+        "withheld_bus_month": 0.16204565679597013
+      }
+    },
+    "B": {
+      "rmsle": {
+        "team": 0.17840397582263975,
+        "joint": 0.17453024243652457,
+        "conditional_stack": 0.1698490417014533,
+        "withheld_bus_month": 0.17008517625369587,
+        "local_stack": 0.16598043249709893,
+        "local_without_last_bus_month": 0.166101517483915
+      },
+      "seconds": 115.56,
+      "station_calibrated_with_earlier_oof": {
+        "team": 0.18140438963678762,
+        "joint": 0.1777241130193915,
+        "conditional_stack": 0.1790882626561099,
+        "withheld_bus_month": 0.17940621870544357
+      }
+    },
+    "C": {
+      "rmsle": {
+        "team": 0.17025985224570953,
+        "joint": 0.16681559501132304,
+        "conditional_stack": 0.1634708953945013,
+        "withheld_bus_month": 0.16345681733515086,
+        "local_stack": 0.16316373710522017,
+        "local_without_last_bus_month": 0.16306554326889106
+      },
+      "seconds": 102.83
+    }
+  },
+  "acceptance": {
+    "local_stack": 2,
+    "withheld_bus_month": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "format": 2,
+  "clean_sha256": "519c88bd46e991677316175a2d24f802db6248ebb7d3971ecbe75477532f2199",
+  "files": {
+    "final_layers.py": "4fb35484299aaa0e0ad7f922c6331699d352f54ea48ae2ca17d5bb51d48c3074",
+    "event_hedges.py": "8d3463f774fd25c0c0a16f6ab4306758b6fb69306938a8f6395cc04aa8e226dd",
+    "delivery_runtime.py": "5fdea0cd63d68a827c01118cc60bfb3d6bea26e78bf0f501cf1ca395b13b0881",
+    "official_inputs.json": "a8587f54ff883e6daa28e2cdaf052098f2c618100b119fc5088d0357bb72ab4a",
+    "evidence/hedges_17_judgments_round7_original.csv": "b36ab53855f4e7df25ffeb35dc5c15af256917a907b7d9f7f47e5308b98d11c4",
+    "cache/calendar.csv": "514fe1ba45a539ed06dc81747117288c99b6e81dbace4a7c68e671b4c3cd7fc0",
+    "cache/final_stage_oof.csv.gz": "d9a8689f127efaa8ab231d9fd2e37fea04e93d186e8e7aec9accd0fe8815a0b5",
+    "cache/historical_concerts.csv": "762716660a5fb96439a0a361b77fa581275dbfbd9e06df3ed96ee3edc8de0087",
+    "cache/lunar_calendar.csv": "f48f12fa04b4224507f03c55990d233278c50d19169223d9c68a6ddc3784265f",
+    "cache/manifest.json": "8e0f14066465d188965260fc24e0ce96fd9d137c183e5a4ca67580a1bf5f0329",
+    "cache/protected_event_keys.csv": "be94d181e8b423f37264515158270daf9c39c3623a13106d85ff8d509ad2fadd",
+    "cache/rules.json": "ddaadfa155ed7805ae906b465f9a812c477ae3f7612b30fca12a91486ddcc943",
+    "cache/timecapsule_oof.csv": "6ada159ac4b0c5ad73ecfe53cff2af279502cff88c8df2b93e1a1424994ecce0",
+    "reference/submission_clean_refined.csv": "519c88bd46e991677316175a2d24f802db6248ebb7d3971ecbe75477532f2199",
+    "reference/submission_night_v4_main.csv": "4c85257294be267c47396587f3a71a2d1e238dc93f957a634cfe662f8e379965",
+    "reference/submission_night_v5_events_hedged15.csv": "9b01382c398fa49c141c78da278e678e7930a75373a8dd1dafa1c2d076c74b6c",
+    "evidence/hedges_15_current_review.csv": "eb58738855914abaf2471e5f976c3b167353cd2ae3c647120e582dc083326dff",
+    "evidence/history/submission_night_v4_events_hedged.csv": "7cc7f4de5d89036b8553ab49ba4d0fd063b22f66c946ccd849eb629204cf44a5"
+  },
+  "official_csv_included": false,
+  "baseline_acceptance": {
+    "sha256_exact": true,
+    "numeric_tolerance_max_abs_log1p": 1e-09,
+    "required_rows": 157194,
+    "required_ids": "official test order; unique",
+    "finite_nonnegative": true,
+    "calculation_input": "supplied CSV; never substitute reference"
+  },
+  "candidate_reproduction_max_abs_log1p": 1e-10
+}

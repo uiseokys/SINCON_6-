@@ -1,0 +1,25 @@
+{
+  "created_kst": "2026-11-13T11:19:39.825807+09:00",
+  "task": "SINCON Hot6 task 19, preregistered Monday holiday transfer",
+  "source_final_layers_sha256": "37a95315a82115ef785797e0b4e5418f6263a454a81f17bd4e7e8ea2d70b83a8",
+  "final_layers_sha256": "39ad625182b2ea6c0dfea734ea0f7dc05ad619cf600da85fd786c537195e701f",
+  "preregistration_sha256": "6fa16212aeadff71e959473f023fd452281961cf5e93ff34450f6d4fdf5585ac",
+  "baseline_sha256": "519c88bd46e991677316175a2d24f802db6248ebb7d3971ecbe75477532f2199",
+  "candidate_sha256": "f503ec6079535040d9c78c4fa23590c406594005f11a0a6edb8349a2a8eb944c",
+  "final_layer_order": [
+    "timecapsule",
+    "plave_existing",
+    "station025",
+    "friday",
+    "monday",
+    "plave22",
+    "lunar3122"
+  ],
+  "public_scores_used": false,
+  "post_june_2026_subway_labels_used": false,
+  "new_network_requests": false,
+  "uploaded": false,
+  "original_six_layers_code_constants_unchanged": true,
+  "original_stage1_package": "final_package/SINCON_final.ipynb, RUN_MODE=assemble; not rerun in task19",
+  "source_notices_copied_without_new_web_review": true
+}

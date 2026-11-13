@@ -1,0 +1,12 @@
+{
+  "files": {
+    "calendar.csv": "514fe1ba45a539ed06dc81747117288c99b6e81dbace4a7c68e671b4c3cd7fc0",
+    "final_stage_oof.csv.gz": "d9a8689f127efaa8ab231d9fd2e37fea04e93d186e8e7aec9accd0fe8815a0b5",
+    "historical_concerts.csv": "762716660a5fb96439a0a361b77fa581275dbfbd9e06df3ed96ee3edc8de0087",
+    "lunar_calendar.csv": "f48f12fa04b4224507f03c55990d233278c50d19169223d9c68a6ddc3784265f",
+    "protected_event_keys.csv": "be94d181e8b423f37264515158270daf9c39c3623a13106d85ff8d509ad2fadd",
+    "rules.json": "ddaadfa155ed7805ae906b465f9a812c477ae3f7612b30fca12a91486ddcc943",
+    "timecapsule_oof.csv": "6ada159ac4b0c5ad73ecfe53cff2af279502cff88c8df2b93e1a1424994ecce0"
+  },
+  "labels_through": "2026-06-30"
+}

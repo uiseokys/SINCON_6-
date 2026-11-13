@@ -1,0 +1,139 @@
+
+--- 코드 셀 1/11 ---
+
+--- 코드 셀 2/11 ---
+패키지: <실행 폴더>/code/2_corrections
+공식 CSV: <실행 폴더>/code/2_corrections/data
+1단계 입력: submission_clean_refined.csv
+{
+  "python": "3.12.15",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "system": "Darwin",
+  "machine": "arm64",
+  "processor": "arm",
+  "random_seed": "none; deterministic layer arithmetic",
+  "gpu_used": false
+}
+
+--- 코드 셀 3/11 ---
+         layer  enabled  changed_rows  max_abs_log_delta
+   timecapsule     True             3           1.462482
+plave_existing     True             4           0.500000
+    station025     True        157194           0.051717
+        friday     True          2016           0.050000
+       plave22     True             2           0.478957
+     lunar3122     True            36           0.939176
+
+--- 코드 셀 4/11 ---
+      layer  enabled  changed_rows  max_abs_log_delta
+timecapsule     True             3           1.462482
+example_id       date  station_id  hour  timecapsule
+   J013371 2026-07-11        3139    21     0.832530
+   J013372 2026-07-11        3139    22     1.462482
+   J013373 2026-07-11        3139    23     0.302353
+
+--- 코드 셀 5/11 ---
+         layer  enabled  changed_rows  max_abs_log_delta
+plave_existing     True             4                0.5
+example_id       date  station_id  hour  plave_existing
+   J093669 2026-09-12        3127    21        0.483073
+   J093670 2026-09-12        3127    22        0.483073
+   J094947 2026-09-13        3127    21        0.500000
+   J094948 2026-09-13        3127    22        0.500000
+
+--- 코드 셀 6/11 ---
+     layer  enabled  changed_rows  max_abs_log_delta
+station025     True        157194           0.051717
+example_id       date  station_id  hour  station025
+   J000000 2026-07-01        3107     6    0.051717
+   J000001 2026-07-01        3107     7    0.051717
+   J000002 2026-07-01        3107     8    0.051717
+   J000003 2026-07-01        3107     9    0.051717
+   J000004 2026-07-01        3107    10    0.051717
+   J000005 2026-07-01        3107    11    0.051717
+   J000006 2026-07-01        3107    12    0.051717
+   J000007 2026-07-01        3107    13    0.051717
+   J000008 2026-07-01        3107    14    0.051717
+   J000009 2026-07-01        3107    15    0.051717
+   J000010 2026-07-01        3107    16    0.051717
+   J000011 2026-07-01        3107    17    0.051717
+앞쪽 12행만 표시합니다. 전체 행은 layer_deltas.csv.gz에 저장합니다.
+
+--- 코드 셀 7/11 ---
+ layer  enabled  changed_rows  max_abs_log_delta
+friday     True          2016               0.05
+example_id       date  station_id  hour    friday
+   J020538 2026-07-17        3112     6  0.017505
+   J020539 2026-07-17        3112     7 -0.013735
+   J020540 2026-07-17        3112     8 -0.001709
+   J020541 2026-07-17        3112     9 -0.012403
+   J020542 2026-07-17        3112    10 -0.002260
+   J020543 2026-07-17        3112    11  0.005462
+   J020544 2026-07-17        3112    12 -0.035304
+   J020545 2026-07-17        3112    13 -0.027228
+   J020546 2026-07-17        3112    14 -0.001580
+   J020547 2026-07-17        3112    15  0.006940
+   J020548 2026-07-17        3112    16 -0.014723
+   J020549 2026-07-17        3112    17  0.026543
+앞쪽 12행만 표시합니다. 전체 행은 layer_deltas.csv.gz에 저장합니다.
+
+--- 코드 셀 8/11 ---
+  layer  enabled  changed_rows  max_abs_log_delta
+plave22     True             2           0.478957
+example_id       date  station_id  hour  plave22
+   J093670 2026-09-12        3127    22 0.425600
+   J094948 2026-09-13        3127    22 0.478957
+
+--- 코드 셀 9/11 ---
+    layer  enabled  changed_rows  max_abs_log_delta
+lunar3122     True            36           0.939176
+example_id       date  station_id  hour  lunar3122
+   J108900 2026-09-24        3122     6  -0.150521
+   J108901 2026-09-24        3122     7  -0.025025
+   J108902 2026-09-24        3122     8   0.002829
+   J108903 2026-09-24        3122     9   0.080727
+   J108904 2026-09-24        3122    10   0.257351
+   J108905 2026-09-24        3122    11   0.232845
+   J108906 2026-09-24        3122    12   0.276436
+   J108907 2026-09-24        3122    13   0.350324
+   J108908 2026-09-24        3122    14   0.349976
+   J108909 2026-09-24        3122    15   0.504998
+   J108910 2026-09-24        3122    16   0.362787
+   J108911 2026-09-24        3122    17   0.714419
+앞쪽 12행만 표시합니다. 전체 행은 layer_deltas.csv.gz에 저장합니다.
+
+--- 코드 셀 10/11 ---
+선택 셀 꺼짐. 별도 15행 후보는 W·시간 비중의 독립 검증이 없는 추정입니다.
+
+--- 코드 셀 11/11 ---
+ENABLE_HEDGES=False: 검증되지 않은 절충 후보는 생성하지 않았습니다.
+{
+  "main": {
+    "file": "submission_night_v4_main.csv",
+    "sha256": "b1b8a74dfece0eeded0c88e66033668eb70552f89544f4bb8a764cfe99d40d76",
+    "rows": 157194,
+    "ids_in_official_order": true,
+    "unique_ids": true,
+    "finite": true,
+    "nonnegative": true,
+    "comparison": {
+      "reference": "submission_night_v4_main.csv",
+      "reference_sha256": "4c85257294be267c47396587f3a71a2d1e238dc93f957a634cfe662f8e379965",
+      "max_abs_log1p_difference": 8.881784197001252e-16,
+      "rows_boardings_different": 1,
+      "rows_nonzero_log1p_difference": 1,
+      "rows_log_difference_gt_1e_10": 0
+    }
+  },
+  "from_clean": {
+    "reference": "submission_clean_refined.csv",
+    "reference_sha256": "519c88bd46e991677316175a2d24f802db6248ebb7d3971ecbe75477532f2199",
+    "max_abs_log1p_difference": 1.4522681479509574,
+    "rows_boardings_different": 157194,
+    "rows_nonzero_log1p_difference": 157194,
+    "rows_log_difference_gt_1e_10": 157194
+  }
+}
+결과 폴더: <실행 폴더>/code/2_corrections/outputs/sincon_step2_20261113T112933_685872Z
+전체 코드 셀 계산 경과 초: 2.429

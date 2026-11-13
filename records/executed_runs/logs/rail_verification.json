@@ -1,0 +1,89 @@
+{
+  "files": {
+    "submission_rail_factors_k30_on_xgb7.csv": {
+      "sha256": "5173c74c4a58cc3a41975992d424b1fd0517aee1f5b44c8addc340a5a4a45537",
+      "reference_sha256": "13b0ff73fb7dfc96a92ca6ddb397c6779d645a05bba9e92e0f5698366633e86f",
+      "max_abs_log_diff_vs_reference": 8.881784197001252e-16,
+      "reproduced": true
+    },
+    "submission_rail_factors_k30_hour_on_xgb7.csv": {
+      "sha256": "cf786c87a06c1efa5a6fbbd96e782ea65657409485a2a50f65936ecc14ccc51e",
+      "reference_sha256": "aa455744556514d54ff2f3fe142117f331a04aa37141e59e6daf1cbfe0e8469c",
+      "max_abs_log_diff_vs_reference": 8.881784197001252e-16,
+      "reproduced": true
+    }
+  },
+  "factor": {
+    "other_stations": 544,
+    "fit_days": 539,
+    "variance_explained": 0.9595824537616547,
+    "stations_with_coefficients": 71,
+    "changed_rows": 154458,
+    "blocked_rows": 2736,
+    "max_abs_log_change": 0.15,
+    "by_month_mean_change": {
+      "7": 0.00641,
+      "8": 0.00635,
+      "9": 0.0074,
+      "10": 0.00788
+    },
+    "by_month_expected_change_from_other_lines": {
+      "7": -0.0713,
+      "8": -0.1049,
+      "9": -0.0521,
+      "10": -0.0203
+    },
+    "by_month_our_forecast_change": {
+      "7": -0.0998,
+      "8": -0.1307,
+      "9": -0.0861,
+      "10": -0.0562
+    }
+  },
+  "holiday": {
+    "changed_rows": 12546,
+    "max_abs_log_change": 0.15,
+    "mean_change_by_date": {
+      "07-17": 0.0135,
+      "08-15": -0.0308,
+      "08-17": 0.027,
+      "09-24": -0.0944,
+      "09-25": -0.0585,
+      "09-26": -0.0303,
+      "09-27": -0.0469,
+      "10-03": 0.0433,
+      "10-05": -0.0042,
+      "10-09": 0.0402
+    }
+  },
+  "hour": {
+    "changed_rows": 154458,
+    "max_abs_log_change": 0.1,
+    "rms_log_change": 0.008831504050109793,
+    "station_hour_coefficients": 1278,
+    "mean_change_by_hour": {
+      "6": 0.0023,
+      "7": 0.0034,
+      "8": 0.0021,
+      "9": -0.0011,
+      "10": -0.0015,
+      "11": -0.0023,
+      "12": -0.002,
+      "13": -0.0016,
+      "14": -0.0008,
+      "15": -0.0016,
+      "16": -0.0017,
+      "17": 0.0001,
+      "18": 0.0019,
+      "19": -0.0,
+      "20": 0.0022,
+      "21": 0.0013,
+      "22": 0.0004,
+      "23": 0.0006
+    },
+    "max_station_day_mean_change": 0.03840647253884202
+  },
+  "python": "3.12.15",
+  "pandas": "3.1.1",
+  "numpy": "2.5.4"
+}

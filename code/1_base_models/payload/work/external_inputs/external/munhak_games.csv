@@ -1,0 +1,351 @@
+﻿game_date,start_time_kst,matchup,game_type,status,time_source,source,published_date,status_known_date,source_url,note
+2025-03-10,13:00,한화-SSG,exhibition,scheduled,rule,schedule_2025_exhibition,2025-02-05,2025-02-05,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11362,
+2025-03-10,13:00,한화-SSG,exhibition,played,actual,kbo_result_2025,2025-03-10,2025-03-10,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=03)",-
+2025-03-11,13:00,한화-SSG,exhibition,scheduled,rule,schedule_2025_exhibition,2025-02-05,2025-02-05,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11362,
+2025-03-11,13:00,한화-SSG,exhibition,played,actual,kbo_result_2025,2025-03-11,2025-03-11,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=03)",-
+2025-03-13,13:00,키움-SSG,exhibition,scheduled,rule,schedule_2025_exhibition,2025-02-05,2025-02-05,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11362,
+2025-03-13,18:00,키움-SSG,exhibition,played,actual,kbo_result_2025,2025-03-13,2025-03-13,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=03)",-
+2025-03-14,13:00,키움-SSG,exhibition,scheduled,rule,schedule_2025_exhibition,2025-02-05,2025-02-05,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11362,
+2025-03-14,13:00,키움-SSG,exhibition,played,actual,kbo_result_2025,2025-03-14,2025-03-14,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=03)",-
+2025-03-15,13:00,LG-SSG,exhibition,scheduled,rule,schedule_2025_exhibition,2025-02-05,2025-02-05,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11362,
+2025-03-15,13:00,LG-SSG,exhibition,played,actual,kbo_result_2025,2025-03-15,2025-03-15,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=03)",-
+2025-03-16,13:00,LG-SSG,exhibition,scheduled,rule,schedule_2025_exhibition,2025-02-05,2025-02-05,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11362,
+2025-03-16,13:00,LG-SSG,exhibition,played,actual,kbo_result_2025,2025-03-16,2025-03-16,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=03)",-
+2025-03-22,14:00,두산-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-03-22,14:00,두산-SSG,regular,played,actual,kbo_result_2025,2025-03-22,2025-03-22,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=03)",-
+2025-03-23,14:00,두산-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-03-23,14:00,두산-SSG,regular,played,actual,kbo_result_2025,2025-03-23,2025-03-23,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=03)",-
+2025-03-25,18:30,롯데-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-03-25,18:30,롯데-SSG,regular,played,actual,kbo_result_2025,2025-03-25,2025-03-25,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=03)",-
+2025-03-26,18:30,롯데-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-03-26,18:30,롯데-SSG,regular,played,actual,kbo_result_2025,2025-03-26,2025-03-26,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=03)",-
+2025-03-27,18:30,롯데-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-03-27,18:30,롯데-SSG,regular,played,actual,kbo_result_2025,2025-03-27,2025-03-27,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=03)",-
+2025-04-04,18:30,KT-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-04,18:30,KT-SSG,regular,played,actual,kbo_result_2025,2025-04-04,2025-04-04,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-05,17:00,KT-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-05,17:00,KT-SSG,regular,cancelled,actual,kbo_result_2025,2025-04-05,2025-04-05,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",우천취소
+2025-04-06,14:00,KT-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-06,14:00,KT-SSG,regular,played,actual,kbo_result_2025,2025-04-06,2025-04-06,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-15,18:30,한화-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-15,18:30,한화-SSG,regular,played,actual,kbo_result_2025,2025-04-15,2025-04-15,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-16,18:30,한화-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-16,18:30,한화-SSG,regular,played,actual,kbo_result_2025,2025-04-16,2025-04-16,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-17,18:30,한화-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-17,18:30,한화-SSG,regular,played,actual,kbo_result_2025,2025-04-17,2025-04-17,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-18,18:30,LG-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-18,18:30,LG-SSG,regular,played,actual,kbo_result_2025,2025-04-18,2025-04-18,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-19,17:00,LG-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-19,14:00,LG-SSG,regular,played,actual,kbo_result_2025,2025-04-19,2025-04-19,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-20,14:00,LG-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-20,14:00,LG-SSG,regular,played,actual,kbo_result_2025,2025-04-20,2025-04-20,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-25,18:30,키움-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-25,18:30,키움-SSG,regular,played,actual,kbo_result_2025,2025-04-25,2025-04-25,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-26,17:00,키움-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-26,17:00,키움-SSG,regular,played,actual,kbo_result_2025,2025-04-26,2025-04-26,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-27,14:00,키움-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-27,14:00,키움-SSG,regular,played,actual,kbo_result_2025,2025-04-27,2025-04-27,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-29,18:30,삼성-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-29,18:30,삼성-SSG,regular,played,actual,kbo_result_2025,2025-04-29,2025-04-29,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-04-30,18:30,삼성-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-04-30,18:30,삼성-SSG,regular,played,actual,kbo_result_2025,2025-04-30,2025-04-30,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=04)",-
+2025-05-01,18:30,삼성-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-01,18:30,삼성-SSG,regular,played,actual,kbo_result_2025,2025-05-01,2025-05-01,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-09,18:30,KIA-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-09,18:30,KIA-SSG,regular,cancelled,actual,kbo_result_2025,2025-05-09,2025-05-09,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",우천취소
+2025-05-10,17:00,KIA-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-10,14:00,KIA-SSG,regular,cancelled,actual,kbo_result_2025,2025-05-10,2025-05-10,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",우천취소
+2025-05-10,17:00,KIA-SSG,regular,played,actual,kbo_result_2025,2025-05-10,2025-05-10,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-11,14:00,KIA-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-11,14:00,KIA-SSG,regular,played,actual,kbo_result_2025,2025-05-11,2025-05-11,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-11,17:00,KIA-SSG,regular,played,actual,kbo_result_2025,2025-05-11,2025-05-11,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-13,18:30,NC-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-13,18:30,NC-SSG,regular,played,actual,kbo_result_2025,2025-05-13,2025-05-13,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-14,18:30,NC-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-14,18:30,NC-SSG,regular,played,actual,kbo_result_2025,2025-05-14,2025-05-14,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-15,18:30,NC-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-15,18:30,NC-SSG,regular,played,actual,kbo_result_2025,2025-05-15,2025-05-15,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-23,18:30,LG-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-23,18:30,LG-SSG,regular,played,actual,kbo_result_2025,2025-05-23,2025-05-23,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-24,17:00,LG-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-24,17:00,LG-SSG,regular,played,actual,kbo_result_2025,2025-05-24,2025-05-24,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-25,14:00,LG-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-25,14:00,LG-SSG,regular,played,actual,kbo_result_2025,2025-05-25,2025-05-25,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-27,18:30,NC-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-27,18:30,NC-SSG,regular,played,actual,kbo_result_2025,2025-05-27,2025-05-27,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-28,18:30,NC-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-28,18:30,NC-SSG,regular,played,actual,kbo_result_2025,2025-05-28,2025-05-28,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-05-29,18:30,NC-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-05-29,18:30,NC-SSG,regular,played,actual,kbo_result_2025,2025-05-29,2025-05-29,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=05)",-
+2025-06-03,17:00,삼성-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-03,17:00,삼성-SSG,regular,played,actual,kbo_result_2025,2025-06-03,2025-06-03,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",-
+2025-06-04,18:30,삼성-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-04,18:30,삼성-SSG,regular,played,actual,kbo_result_2025,2025-06-04,2025-06-04,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",-
+2025-06-05,18:30,삼성-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-05,18:30,삼성-SSG,regular,played,actual,kbo_result_2025,2025-06-05,2025-06-05,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",-
+2025-06-13,18:30,롯데-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-13,18:30,롯데-SSG,regular,cancelled,actual,kbo_result_2025,2025-06-13,2025-06-13,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",우천취소
+2025-06-14,17:00,롯데-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-14,17:00,롯데-SSG,regular,played,actual,kbo_result_2025,2025-06-14,2025-06-14,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",-
+2025-06-15,17:00,롯데-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-15,17:00,롯데-SSG,regular,played,actual,kbo_result_2025,2025-06-15,2025-06-15,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",-
+2025-06-20,18:30,KIA-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-20,18:30,KIA-SSG,regular,cancelled,actual,kbo_result_2025,2025-06-20,2025-06-20,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",우천취소
+2025-06-21,17:00,KIA-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-21,17:00,KIA-SSG,regular,played,actual,kbo_result_2025,2025-06-21,2025-06-21,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",-
+2025-06-22,17:00,KIA-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-22,17:00,KIA-SSG,regular,played,actual,kbo_result_2025,2025-06-22,2025-06-22,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",-
+2025-06-27,18:30,한화-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-27,18:30,한화-SSG,regular,played,actual,kbo_result_2025,2025-06-27,2025-06-27,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",-
+2025-06-28,17:00,한화-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-28,17:00,한화-SSG,regular,played,actual,kbo_result_2025,2025-06-28,2025-06-28,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",-
+2025-06-29,17:00,한화-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-06-29,17:00,한화-SSG,regular,played,actual,kbo_result_2025,2025-06-29,2025-06-29,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=06)",-
+2025-07-08,18:30,KT-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-07-08,18:30,KT-SSG,regular,played,actual,kbo_result_2025,2025-07-08,2025-07-08,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=07)",-
+2025-07-09,18:30,KT-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-07-09,18:30,KT-SSG,regular,played,actual,kbo_result_2025,2025-07-09,2025-07-09,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=07)",-
+2025-07-10,18:30,KT-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-07-10,18:30,KT-SSG,regular,played,actual,kbo_result_2025,2025-07-10,2025-07-10,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=07)",-
+2025-07-17,18:30,두산-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-07-17,18:30,두산-SSG,regular,cancelled,actual,kbo_result_2025,2025-07-17,2025-07-17,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=07)",우천취소
+2025-07-18,18:30,두산-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-07-18,18:30,두산-SSG,regular,cancelled,actual,kbo_result_2025,2025-07-18,2025-07-18,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=07)",그라운드사정
+2025-07-19,18:00,두산-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-07-19,18:00,두산-SSG,regular,played,actual,kbo_result_2025,2025-07-19,2025-07-19,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=07)",-
+2025-07-20,18:00,두산-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-07-20,18:00,두산-SSG,regular,played,actual,kbo_result_2025,2025-07-20,2025-07-20,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=07)",-
+2025-07-29,18:30,키움-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-07-29,18:30,키움-SSG,regular,played,actual,kbo_result_2025,2025-07-29,2025-07-29,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=07)",-
+2025-07-30,18:30,키움-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-07-30,18:30,키움-SSG,regular,played,actual,kbo_result_2025,2025-07-30,2025-07-30,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=07)",-
+2025-07-31,18:30,키움-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-07-31,18:30,키움-SSG,regular,played,actual,kbo_result_2025,2025-07-31,2025-07-31,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=07)",-
+2025-08-05,18:30,삼성-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-05,18:30,삼성-SSG,regular,played,actual,kbo_result_2025,2025-08-05,2025-08-05,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-06,18:30,삼성-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-06,18:30,삼성-SSG,regular,played,actual,kbo_result_2025,2025-08-06,2025-08-06,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-07,18:30,삼성-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-07,18:30,삼성-SSG,regular,played,actual,kbo_result_2025,2025-08-07,2025-08-07,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-12,18:30,키움-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-12,18:30,키움-SSG,regular,played,actual,kbo_result_2025,2025-08-12,2025-08-12,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-13,18:30,키움-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-13,18:30,키움-SSG,regular,cancelled,actual,kbo_result_2025,2025-08-13,2025-08-13,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",우천취소
+2025-08-14,18:30,키움-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-14,18:30,키움-SSG,regular,played,actual,kbo_result_2025,2025-08-14,2025-08-14,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-15,18:00,LG-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-15,18:00,LG-SSG,regular,played,actual,kbo_result_2025,2025-08-15,2025-08-15,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-16,18:00,LG-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-16,18:00,LG-SSG,regular,played,actual,kbo_result_2025,2025-08-16,2025-08-16,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-17,18:00,LG-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-17,18:00,LG-SSG,regular,played,actual,kbo_result_2025,2025-08-17,2025-08-17,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-26,18:30,KIA-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-26,18:30,KIA-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-08-26,18:30,KIA-SSG,regular,played,actual,kbo_result_2025,2025-08-26,2025-08-26,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-27,18:30,KIA-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-27,18:30,KIA-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-08-27,18:30,KIA-SSG,regular,played,actual,kbo_result_2025,2025-08-27,2025-08-27,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-28,18:30,KIA-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-28,18:30,KIA-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-08-28,18:30,KIA-SSG,regular,played,actual,kbo_result_2025,2025-08-28,2025-08-28,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-29,18:30,NC-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-29,18:30,NC-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-08-29,18:30,NC-SSG,regular,played,actual,kbo_result_2025,2025-08-29,2025-08-29,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-30,18:00,NC-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-30,18:00,NC-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-08-30,18:00,NC-SSG,regular,played,actual,kbo_result_2025,2025-08-30,2025-08-30,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-08-31,18:00,NC-SSG,regular,scheduled,rule,schedule_2025_original,2024-12-20,2024-12-20,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=10341,
+2025-08-31,18:00,NC-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-08-31,18:00,NC-SSG,regular,played,actual,kbo_result_2025,2025-08-31,2025-08-31,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=08)",-
+2025-09-01,,N-S,regular,reserve,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-02,18:30,키움-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-02,18:30,키움-SSG,regular,played,actual,kbo_result_2025,2025-09-02,2025-09-02,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",-
+2025-09-05,18:30,롯데-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-05,18:30,롯데-SSG,regular,played,actual,kbo_result_2025,2025-09-05,2025-09-05,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",-
+2025-09-06,17:00,롯데-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-06,17:00,롯데-SSG,regular,cancelled,actual,kbo_result_2025,2025-09-06,2025-09-06,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",우천취소
+2025-09-19,18:30,두산-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-19,18:30,두산-SSG,regular,cancelled,actual,kbo_result_2025,2025-09-19,2025-09-19,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",우천취소
+2025-09-20,17:00,두산-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-20,17:00,두산-SSG,regular,played,actual,kbo_result_2025,2025-09-20,2025-09-20,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",-
+2025-09-21,14:00,두산-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-21,14:00,두산-SSG,regular,played,actual,kbo_result_2025,2025-09-21,2025-09-21,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",-
+2025-09-22,,두-S,regular,reserve,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-22,18:30,두산-SSG,regular,played,actual,kbo_result_2025,2025-09-22,2025-09-22,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",-
+2025-09-23,18:30,KIA-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-23,18:30,KIA-SSG,regular,played,actual,kbo_result_2025,2025-09-23,2025-09-23,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",-
+2025-09-24,18:30,한화-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-24,18:30,한화-SSG,regular,cancelled,actual,kbo_result_2025,2025-09-24,2025-09-24,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",우천취소
+2025-09-25,18:30,KT-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-25,18:30,KT-SSG,regular,played,actual,kbo_result_2025,2025-09-25,2025-09-25,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",-
+2025-09-26,18:30,KT-SSG,regular,scheduled,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-26,18:30,KT-SSG,regular,played,actual,kbo_result_2025,2025-09-26,2025-09-26,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",-
+2025-09-28,,KT-S,regular,reserve,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-29,,롯-S,regular,reserve,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-29,,KT-S,regular,reserve,rule,schedule_2025_remaining,2025-08-19,2025-08-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11647,
+2025-09-29,18:30,롯데-SSG,regular,played,actual,kbo_result_2025,2025-09-29,2025-09-29,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=09)",-
+2025-10-01,18:30,한화-SSG,regular,played,actual,kbo_result_2025,2025-10-01,2025-10-01,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=10)",-
+2025-10-09,14:00,삼성-SSG,postseason,played,actual,kbo_result_2025,2025-10-09,2025-10-09,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=10)",-
+2025-10-10,18:30,삼성-SSG,postseason,cancelled,actual,kbo_result_2025,2025-10-10,2025-10-10,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=10)",우천취소
+2025-10-11,14:00,삼성-SSG,postseason,played,actual,kbo_result_2025,2025-10-11,2025-10-11,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2025, gameMonth=10)",-
+2026-03-16,13:00,삼성-SSG,exhibition,scheduled,rule,schedule_2026_exhibition,2026-02-04,2026-02-04,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11823,
+2026-03-16,13:00,삼성-SSG,exhibition,played,actual,kbo_result_2026,2026-03-16,2026-03-16,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=03)",-
+2026-03-17,13:00,삼성-SSG,exhibition,scheduled,rule,schedule_2026_exhibition,2026-02-04,2026-02-04,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11823,
+2026-03-17,13:00,삼성-SSG,exhibition,played,actual,kbo_result_2026,2026-03-17,2026-03-17,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=03)",-
+2026-03-19,13:00,LG-SSG,exhibition,scheduled,rule,schedule_2026_exhibition,2026-02-04,2026-02-04,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11823,
+2026-03-19,13:00,LG-SSG,exhibition,played,actual,kbo_result_2026,2026-03-19,2026-03-19,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=03)",-
+2026-03-20,13:00,LG-SSG,exhibition,scheduled,rule,schedule_2026_exhibition,2026-02-04,2026-02-04,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11823,
+2026-03-20,13:00,LG-SSG,exhibition,played,actual,kbo_result_2026,2026-03-20,2026-03-20,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=03)",-
+2026-03-21,13:00,키움-SSG,exhibition,scheduled,rule,schedule_2026_exhibition,2026-02-04,2026-02-04,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11823,
+2026-03-21,13:00,키움-SSG,exhibition,played,actual,kbo_result_2026,2026-03-21,2026-03-21,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=03)",-
+2026-03-22,13:00,키움-SSG,exhibition,scheduled,rule,schedule_2026_exhibition,2026-02-04,2026-02-04,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11823,
+2026-03-22,17:00,키움-SSG,exhibition,played,actual,kbo_result_2026,2026-03-22,2026-03-22,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=03)",-
+2026-03-23,13:00,롯데-SSG,exhibition,scheduled,rule,schedule_2026_exhibition,2026-02-04,2026-02-04,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11823,
+2026-03-23,13:00,롯데-SSG,exhibition,played,actual,kbo_result_2026,2026-03-23,2026-03-23,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=03)",-
+2026-03-24,13:00,롯데-SSG,exhibition,scheduled,rule,schedule_2026_exhibition,2026-02-04,2026-02-04,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11823,
+2026-03-24,13:00,롯데-SSG,exhibition,played,actual,kbo_result_2026,2026-03-24,2026-03-24,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=03)",-
+2026-03-28,14:00,KIA-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-03-28,14:00,KIA-SSG,regular,played,actual,kbo_result_2026,2026-03-28,2026-03-28,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=03)",-
+2026-03-29,14:00,KIA-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-03-29,14:00,KIA-SSG,regular,played,actual,kbo_result_2026,2026-03-29,2026-03-29,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=03)",-
+2026-03-31,18:30,키움-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-03-31,18:30,키움-SSG,regular,played,actual,kbo_result_2026,2026-03-31,2026-03-31,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=03)",-
+2026-04-01,18:30,키움-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-04-01,18:30,키움-SSG,regular,played,actual,kbo_result_2026,2026-04-01,2026-04-01,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=04)",-
+2026-04-02,18:30,키움-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-04-02,18:30,키움-SSG,regular,played,actual,kbo_result_2026,2026-04-02,2026-04-02,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=04)",-
+2026-04-07,18:30,한화-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-04-07,18:30,한화-SSG,regular,played,actual,kbo_result_2026,2026-04-07,2026-04-07,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=04)",-
+2026-04-08,18:30,한화-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-04-08,18:30,한화-SSG,regular,played,actual,kbo_result_2026,2026-04-08,2026-04-08,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=04)",-
+2026-04-09,18:30,한화-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-04-09,18:30,한화-SSG,regular,cancelled,actual,kbo_result_2026,2026-04-09,2026-04-09,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=04)",우천취소
+2026-04-14,18:30,두산-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-04-14,18:30,두산-SSG,regular,played,actual,kbo_result_2026,2026-04-14,2026-04-14,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=04)",-
+2026-04-15,18:30,두산-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-04-15,18:30,두산-SSG,regular,played,actual,kbo_result_2026,2026-04-15,2026-04-15,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=04)",-
+2026-04-16,18:30,두산-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-04-16,18:30,두산-SSG,regular,played,actual,kbo_result_2026,2026-04-16,2026-04-16,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=04)",-
+2026-04-24,18:30,KT-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-04-24,18:30,KT-SSG,regular,played,actual,kbo_result_2026,2026-04-24,2026-04-24,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=04)",-
+2026-04-25,17:00,KT-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-04-25,17:00,KT-SSG,regular,played,actual,kbo_result_2026,2026-04-25,2026-04-25,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=04)",-
+2026-04-26,14:00,KT-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-04-26,14:00,KT-SSG,regular,played,actual,kbo_result_2026,2026-04-26,2026-04-26,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=04)",-
+2026-05-01,14:00,롯데-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-01,17:00,,regular,time_change,announced,kbo_time_change,2026-04-09,2026-04-09,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11906,노동절 공휴일 지정 -> 18:30에서 17:00
+2026-05-01,17:00,롯데-SSG,regular,played,actual,kbo_result_2026,2026-05-01,2026-05-01,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",-
+2026-05-02,17:00,롯데-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-02,14:00,롯데-SSG,regular,played,actual,kbo_result_2026,2026-05-02,2026-05-02,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",-
+2026-05-03,14:00,롯데-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-03,14:00,롯데-SSG,regular,played,actual,kbo_result_2026,2026-05-03,2026-05-03,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",-
+2026-05-05,14:00,NC-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-05,14:00,NC-SSG,regular,played,actual,kbo_result_2026,2026-05-05,2026-05-05,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",-
+2026-05-06,18:30,NC-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-06,18:30,NC-SSG,regular,played,actual,kbo_result_2026,2026-05-06,2026-05-06,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",-
+2026-05-07,18:30,NC-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-07,18:30,NC-SSG,regular,played,actual,kbo_result_2026,2026-05-07,2026-05-07,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",-
+2026-05-15,18:30,LG-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-15,18:30,LG-SSG,regular,played,actual,kbo_result_2026,2026-05-15,2026-05-15,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",-
+2026-05-16,17:00,LG-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-16,17:00,LG-SSG,regular,played,actual,kbo_result_2026,2026-05-16,2026-05-16,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",-
+2026-05-17,14:00,LG-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-17,14:00,LG-SSG,regular,played,actual,kbo_result_2026,2026-05-17,2026-05-17,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",-
+2026-05-26,18:30,삼성-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-26,18:30,삼성-SSG,regular,cancelled,actual,kbo_result_2026,2026-05-26,2026-05-26,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",우천취소
+2026-05-27,18:30,삼성-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-27,18:30,삼성-SSG,regular,played,actual,kbo_result_2026,2026-05-27,2026-05-27,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",-
+2026-05-28,18:30,삼성-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-05-28,18:30,삼성-SSG,regular,played,actual,kbo_result_2026,2026-05-28,2026-05-28,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=05)",-
+2026-06-02,18:30,키움-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-02,18:30,키움-SSG,regular,played,actual,kbo_result_2026,2026-06-02,2026-06-02,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-06-03,17:00,키움-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-03,17:00,키움-SSG,regular,played,actual,kbo_result_2026,2026-06-03,2026-06-03,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-06-04,18:30,키움-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-04,18:30,키움-SSG,regular,played,actual,kbo_result_2026,2026-06-04,2026-06-04,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-06-05,18:30,KT-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-05,18:30,KT-SSG,regular,played,actual,kbo_result_2026,2026-06-05,2026-06-05,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-06-06,17:00,KT-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-06,14:00,KT-SSG,regular,played,actual,kbo_result_2026,2026-06-06,2026-06-06,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-06-07,17:00,KT-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-07,17:00,KT-SSG,regular,played,actual,kbo_result_2026,2026-06-07,2026-06-07,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-06-16,18:30,롯데-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-16,18:30,롯데-SSG,regular,played,actual,kbo_result_2026,2026-06-16,2026-06-16,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-06-17,18:30,롯데-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-17,18:30,롯데-SSG,regular,played,actual,kbo_result_2026,2026-06-17,2026-06-17,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-06-18,18:30,롯데-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-18,18:30,롯데-SSG,regular,played,actual,kbo_result_2026,2026-06-18,2026-06-18,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-06-26,18:30,한화-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-26,18:30,한화-SSG,regular,played,actual,kbo_result_2026,2026-06-26,2026-06-26,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-06-27,17:00,한화-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-27,17:00,한화-SSG,regular,played,actual,kbo_result_2026,2026-06-27,2026-06-27,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-06-28,17:00,한화-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-06-28,17:00,한화-SSG,regular,played,actual,kbo_result_2026,2026-06-28,2026-06-28,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=06)",-
+2026-07-03,18:30,삼성-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-03,18:30,삼성-SSG,regular,played,actual,kbo_result_2026,2026-07-03,2026-07-03,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-04,18:00,삼성-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-04,18:00,삼성-SSG,regular,played,actual,kbo_result_2026,2026-07-04,2026-07-04,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-05,18:00,삼성-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-05,18:00,삼성-SSG,regular,played,actual,kbo_result_2026,2026-07-05,2026-07-05,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-16,18:30,KIA-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-16,18:30,KIA-SSG,regular,played,actual,kbo_result_2026,2026-07-16,2026-07-16,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-17,18:00,KIA-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-17,18:00,,regular,time_change,announced,kbo_time_change,2026-05-28,2026-05-28,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11960,제헌절 공휴일 지정 -> 18:30에서 18:00
+2026-07-17,18:00,KIA-SSG,regular,played,actual,kbo_result_2026,2026-07-17,2026-07-17,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-18,18:00,KIA-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-18,18:00,KIA-SSG,regular,played,actual,kbo_result_2026,2026-07-18,2026-07-18,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-19,18:00,KIA-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-19,18:00,KIA-SSG,regular,played,actual,kbo_result_2026,2026-07-19,2026-07-19,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-24,18:30,NC-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-24,18:30,NC-SSG,regular,played,actual,kbo_result_2026,2026-07-24,2026-07-24,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-25,18:00,NC-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-25,18:00,NC-SSG,regular,played,actual,kbo_result_2026,2026-07-25,2026-07-25,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-26,18:00,NC-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-26,18:00,NC-SSG,regular,played,actual,kbo_result_2026,2026-07-26,2026-07-26,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-28,18:30,두산-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-28,18:30,두산-SSG,regular,played,actual,kbo_result_2026,2026-07-28,2026-07-28,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-29,18:30,두산-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-29,18:30,두산-SSG,regular,played,actual,kbo_result_2026,2026-07-29,2026-07-29,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-07-30,18:30,두산-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-07-30,18:30,두산-SSG,regular,played,actual,kbo_result_2026,2026-07-30,2026-07-30,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=07)",-
+2026-08-04,18:30,LG-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-04,18:30,LG-SSG,regular,played,actual,kbo_result_2026,2026-08-04,2026-08-04,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",-
+2026-08-05,18:30,LG-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-05,18:30,LG-SSG,regular,cancelled,actual,kbo_result_2026,2026-08-05,2026-08-05,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",폭염취소
+2026-08-06,18:30,LG-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-06,18:30,LG-SSG,regular,cancelled,actual,kbo_result_2026,2026-08-06,2026-08-06,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",폭염취소
+2026-08-11,18:30,롯데-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-11,19:00,롯데-SSG,regular,played,actual,kbo_result_2026,2026-08-11,2026-08-11,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",-
+2026-08-12,18:30,롯데-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-12,19:00,롯데-SSG,regular,played,actual,kbo_result_2026,2026-08-12,2026-08-12,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",-
+2026-08-13,18:30,롯데-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-13,19:00,롯데-SSG,regular,played,actual,kbo_result_2026,2026-08-13,2026-08-13,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",-
+2026-08-21,18:30,KT-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-21,19:00,KT-SSG,regular,played,actual,kbo_result_2026,2026-08-21,2026-08-21,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",-
+2026-08-22,18:00,KT-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-22,19:00,KT-SSG,regular,cancelled,actual,kbo_result_2026,2026-08-22,2026-08-22,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",우천취소
+2026-08-23,18:00,KT-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-23,19:00,KT-SSG,regular,played,actual,kbo_result_2026,2026-08-23,2026-08-23,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",-
+2026-08-25,18:30,한화-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-25,18:30,한화-SSG,regular,played,actual,kbo_result_2026,2026-08-25,2026-08-25,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",-
+2026-08-26,18:30,한화-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-26,18:30,한화-SSG,regular,played,actual,kbo_result_2026,2026-08-26,2026-08-26,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",-
+2026-08-27,18:30,한화-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-08-27,18:30,한화-SSG,regular,played,actual,kbo_result_2026,2026-08-27,2026-08-27,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=08)",-
+2026-09-04,18:30,두산-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-09-04,18:30,두산-SSG,regular,played,actual,kbo_result_2026,2026-09-04,2026-09-04,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=09)",-
+2026-09-05,17:00,두산-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-09-05,17:00,두산-SSG,regular,played,actual,kbo_result_2026,2026-09-05,2026-09-05,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=09)",-
+2026-09-06,14:00,두산-SSG,regular,scheduled,rule,schedule_2026_original,2025-12-19,2025-12-19,https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=11794,
+2026-09-06,17:00,두산-SSG,regular,played,actual,kbo_result_2026,2026-09-06,2026-09-06,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=09)",-
+2026-09-10,18:30,한화-SSG,regular,played,actual,kbo_result_2026,2026-09-10,2026-09-10,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=09)",-
+2026-09-15,18:30,KIA-SSG,regular,played,actual,kbo_result_2026,2026-09-15,2026-09-15,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=09)",-
+2026-09-20,14:00,키움-SSG,regular,played,actual,kbo_result_2026,2026-09-20,2026-09-20,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=09)",-
+2026-09-22,18:30,KT-SSG,regular,played,actual,kbo_result_2026,2026-09-22,2026-09-22,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=09)",-
+2026-09-24,17:00,삼성-SSG,regular,played,actual,kbo_result_2026,2026-09-24,2026-09-24,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=09)",-
+2026-09-25,17:00,삼성-SSG,regular,cancelled,actual,kbo_result_2026,2026-09-25,2026-09-25,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=09)",우천취소
+2026-09-29,18:30,LG-SSG,regular,played,actual,kbo_result_2026,2026-09-29,2026-09-29,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=09)",-
+2026-09-30,18:30,LG-SSG,regular,played,actual,kbo_result_2026,2026-09-30,2026-09-30,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=09)",-
+2026-10-01,18:30,LG-SSG,regular,played,actual,kbo_result_2026,2026-10-01,2026-10-01,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=10)",-
+2026-10-07,18:30,NC-SSG,regular,played,actual,kbo_result_2026,2026-10-07,2026-10-07,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=10)",-
+2026-10-09,14:00,삼성-SSG,regular,played,actual,kbo_result_2026,2026-10-09,2026-10-09,"https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList (teamId=SK, seasonId=2026, gameMonth=10)",-

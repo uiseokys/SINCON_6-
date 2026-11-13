@@ -1,0 +1,27 @@
+{
+  "timecapsule": [
+    {
+      "hour": 21,
+      "historical_actual": 272,
+      "historical_ordinary": 80,
+      "ordinary_target": 102
+    },
+    {
+      "hour": 22,
+      "historical_actual": 489,
+      "historical_ordinary": 78,
+      "ordinary_target": 77
+    },
+    {
+      "hour": 23,
+      "historical_actual": 88,
+      "historical_ordinary": 55,
+      "ordinary_target": 58
+    }
+  ],
+  "provenance": {
+    "timecapsule": "accepted ROUND2 same-series 2025-06-14 transfer, weight 0.75",
+    "plave22": "accepted ROUND5 Q25/Q50 geometric midpoint of four series rates",
+    "lunar3122": "ROUND7 chronological recheck; only rel=-1,0; station chosen by cemetery shuttle connection"
+  }
+}

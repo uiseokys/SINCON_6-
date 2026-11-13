@@ -1,0 +1,36 @@
+{
+  "mode": "assemble",
+  "device": "cpu",
+  "python": "3.12.15",
+  "platform": "macOS-26.6-arm64-arm-64bit",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "seconds": {
+    "1_base_models": 29.0,
+    "2_corrections": 2.5,
+    "2b_monday": 3.4,
+    "2c_cup_walk": 0.7,
+    "3_stack": 4.3,
+    "4_rail": 1.6
+  },
+  "total_seconds": 41.5,
+  "outputs": {
+    "clean_refined": "<실행 폴더>/code/1_base_models/outputs/sincon_assemble_20261113T112904_936662Z/submission_clean_refined.csv",
+    "night_v4_main": "<실행 폴더>/code/2_corrections/outputs/sincon_step2_20261113T112933_685872Z/submission_night_v4_main.csv",
+    "monday_main": "<실행 폴더>/run_outputs/monday/sincon_monday_20261113T112936_148764Z/submission_monday_main.csv",
+    "cup_walk": "<실행 폴더>/run_outputs/cup_walk/submission_night_v4_main_cup_walk.csv",
+    "xgb7": "<실행 폴더>/run_outputs/stack/submission_xgb7_w10_on_curvature.csv",
+    "k30_hour": "<실행 폴더>/run_outputs/rail/submission_rail_factors_k30_hour_on_xgb7.csv"
+  },
+  "archived_input_checks_max_abs_log1p_diff": {
+    "월요일 후보 vs 3단계 보관 입력": 0.0,
+    "코리아컵·걷기 후보 vs 3단계 보관 입력": 8.881784197001252e-16
+  },
+  "final_prediction": {
+    "output": "<실행 폴더>/run_outputs/submission_final_main.csv",
+    "sha256": "cf786c87a06c1efa5a6fbbd96e782ea65657409485a2a50f65936ecc14ccc51e",
+    "submitted_sha256": "aa455744556514d54ff2f3fe142117f331a04aa37141e59e6daf1cbfe0e8469c",
+    "byte_identical": false,
+    "max_abs_log1p_diff_vs_submitted": 8.881784197001252e-16
+  }
+}

@@ -1,0 +1,890 @@
+{
+  "stage": "after_model",
+  "input_sha256": "ec8d895ddcafb59e701f096a04e7a8b650d2321645161402b82e579fcb0c0b0f",
+  "output_sha256": "519c88bd46e991677316175a2d24f802db6248ebb7d3971ecbe75477532f2199",
+  "clean_oof_sha256": "3f753afc8c5fa76f199fd0d859a98beee044f96b8def50182e57e0b9860e93dd",
+  "rows": 157194,
+  "changed_rows": 59,
+  "by_layer": {
+    "dream_park": 43,
+    "science_refinement": 12,
+    "neunghudae": 2,
+    "trail_festival": 2
+  },
+  "details": {
+    "dream_park": {
+      "weekday": {
+        "out_of_time_rmsle": {
+          "reference": 0.18295624903779098,
+          "candidate": 0.14164589387817283
+        },
+        "out_of_time_by_day": {
+          "2025-10-30": {
+            "rmsle": [
+              0.3050454544207182,
+              0.23560860453886193
+            ],
+            "mean_log_residual": 0.24323401627473137
+          },
+          "2025-10-31": {
+            "rmsle": [
+              0.18418118628629646,
+              0.1197445282223419
+            ],
+            "mean_log_residual": 0.14921836344292938
+          },
+          "2025-11-03": {
+            "rmsle": [
+              0.1061334723827223,
+              0.08650156705470545
+            ],
+            "mean_log_residual": 0.06554550967455534
+          },
+          "2025-11-04": {
+            "rmsle": [
+              0.13341657813762117,
+              0.05694379023621092
+            ],
+            "mean_log_residual": 0.07651243163462003
+          },
+          "2025-11-05": {
+            "rmsle": [
+              0.10641996703323597,
+              0.14050805436488922
+            ],
+            "mean_log_residual": 0.006534276569844177
+          }
+        },
+        "fit_dates": [
+          "2025-10-23",
+          "2025-10-24",
+          "2025-10-27",
+          "2025-10-28",
+          "2025-10-29"
+        ],
+        "hourly_offsets": {
+          "13": 0.058171153312246204,
+          "14": 0.14395745899319845,
+          "15": 0.14519400552259265,
+          "16": 0.022979516582517068,
+          "17": 0.04952793703268599,
+          "18": 0.0
+        },
+        "historical_station_days": [
+          {
+            "date": "2025-10-23",
+            "observed_count": 1785,
+            "forecast_count": 1457.4834974274688,
+            "mean_residual": 0.21946978875426973,
+            "spatial_weekday_contrast": 0.2335449851762208
+          },
+          {
+            "date": "2025-10-24",
+            "observed_count": 1989,
+            "forecast_count": 1627.0872487473218,
+            "mean_residual": 0.2155331856906324,
+            "spatial_weekday_contrast": 0.07077871328412828
+          },
+          {
+            "date": "2025-10-27",
+            "observed_count": 1553,
+            "forecast_count": 1389.2352386286325,
+            "mean_residual": 0.12162717763799573,
+            "spatial_weekday_contrast": 0.0982224142390055
+          },
+          {
+            "date": "2025-10-28",
+            "observed_count": 1514,
+            "forecast_count": 1423.1938237902582,
+            "mean_residual": 0.07045899888519491,
+            "spatial_weekday_contrast": 0.07672613599374493
+          },
+          {
+            "date": "2025-10-29",
+            "observed_count": 1708,
+            "forecast_count": 1458.8260848602256,
+            "mean_residual": 0.17154004224888286,
+            "spatial_weekday_contrast": 0.13872455704527997
+          },
+          {
+            "date": "2025-10-30",
+            "observed_count": 1878,
+            "forecast_count": 1476.2504459274573,
+            "mean_residual": 0.24323401627473137,
+            "spatial_weekday_contrast": 0.1941450793613432
+          },
+          {
+            "date": "2025-10-31",
+            "observed_count": 1868,
+            "forecast_count": 1624.95154471584,
+            "mean_residual": 0.14921836344292938,
+            "spatial_weekday_contrast": 0.09788324370950867
+          },
+          {
+            "date": "2025-11-03",
+            "observed_count": 1502,
+            "forecast_count": 1420.3562344394302,
+            "mean_residual": 0.06554550967455534,
+            "spatial_weekday_contrast": 0.051581797764814384
+          },
+          {
+            "date": "2025-11-04",
+            "observed_count": 1532,
+            "forecast_count": 1442.850227773945,
+            "mean_residual": 0.07651243163462003,
+            "spatial_weekday_contrast": 0.06437495734897625
+          },
+          {
+            "date": "2025-11-05",
+            "observed_count": 1526,
+            "forecast_count": 1500.1690033485295,
+            "mean_residual": 0.006534276569844177,
+            "spatial_weekday_contrast": -0.05258717557702974
+          }
+        ],
+        "early_positive_in_late_day": 4
+      },
+      "weekend": {
+        "out_of_time_rmsle": {
+          "reference": 0.3894903446208863,
+          "candidate": 0.23075143186539376
+        },
+        "out_of_time_by_day": {
+          "2025-11-01": {
+            "rmsle": [
+              0.382947081289664,
+              0.22943871731247253
+            ],
+            "mean_log_residual": 0.34543444171030097
+          },
+          "2025-11-02": {
+            "rmsle": [
+              0.3959254854609905,
+              0.23205672068239314
+            ],
+            "mean_log_residual": 0.3888649067122853
+          }
+        },
+        "fit_dates": [
+          "2025-10-25",
+          "2025-10-26"
+        ],
+        "hourly_offsets": {
+          "13": 0.15778345651563697,
+          "14": 0.18968602617203367,
+          "15": 0.18300326977249826,
+          "16": 0.1949296432362737,
+          "17": 0.13175428315406212,
+          "18": 0.15208819655626038
+        },
+        "historical_station_days": [
+          {
+            "date": "2025-10-25",
+            "observed_count": 2277,
+            "forecast_count": 1311.5463145273159,
+            "mean_residual": 0.5408000893916299,
+            "spatial_weekday_contrast": 0.43231604597355
+          },
+          {
+            "date": "2025-10-26",
+            "observed_count": 1409,
+            "forecast_count": 924.3217581553761,
+            "mean_residual": 0.4192437799497137,
+            "spatial_weekday_contrast": 0.2405138709642934
+          },
+          {
+            "date": "2025-11-01",
+            "observed_count": 2003,
+            "forecast_count": 1378.795391163226,
+            "mean_residual": 0.34543444171030097,
+            "spatial_weekday_contrast": 0.3518065072913619
+          },
+          {
+            "date": "2025-11-02",
+            "observed_count": 1466,
+            "forecast_count": 987.1200488590653,
+            "mean_residual": 0.3888649067122853,
+            "spatial_weekday_contrast": 0.23280538138791998
+          }
+        ],
+        "early_positive_in_late_day": 2
+      }
+    },
+    "neunghudae": {
+      "dry_h21_neunghudae_donors": [
+        {
+          "date": "2025-10-18",
+          "boards_3139": 176,
+          "boards_3138": 50,
+          "control_dates": [
+            "2025-08-16",
+            "2025-09-13",
+            "2025-09-20",
+            "2025-09-27",
+            "2025-10-04"
+          ],
+          "control_gap_median": 38.0,
+          "net_excess": 88.0
+        },
+        {
+          "date": "2025-10-19",
+          "boards_3139": 296,
+          "boards_3138": 55,
+          "control_dates": [
+            "2025-08-17",
+            "2025-09-07",
+            "2025-09-14",
+            "2025-09-21",
+            "2025-09-28"
+          ],
+          "control_gap_median": 24.0,
+          "net_excess": 217.0
+        }
+      ],
+      "seonhak_park_directional_check": [
+        {
+          "date": "2025-10-31",
+          "boards_3128": 639,
+          "boards_3127": 6308
+        },
+        {
+          "date": "2025-11-01",
+          "boards_3128": 288,
+          "boards_3127": 10189
+        }
+      ]
+    },
+    "trail": {
+      "summer": {
+        "forecast_origin": "2025-06-30",
+        "hours": [
+          12,
+          13
+        ],
+        "observed": [
+          405,
+          461
+        ],
+        "forecast": [
+          310.3708628867693,
+          353.9976900667425
+        ],
+        "control_dates": [
+          "2025-10-26"
+        ],
+        "spatially_adjusted_contrast": [
+          0.29257612484910034,
+          0.344410094301427
+        ]
+      },
+      "2025-07-31": {
+        "forecast_origin": "2025-07-31",
+        "hours": [
+          12,
+          13
+        ],
+        "observed": [
+          405,
+          461
+        ],
+        "forecast": [
+          262.4792699315273,
+          285.3534887836971
+        ],
+        "control_dates": [
+          "2025-10-26",
+          "2025-11-02",
+          "2025-11-09",
+          "2025-11-16"
+        ],
+        "spatially_adjusted_contrast": [
+          0.2040814598278815,
+          0.16065803251873145
+        ]
+      },
+      "2025-08-31": {
+        "forecast_origin": "2025-08-31",
+        "hours": [
+          12,
+          13
+        ],
+        "observed": [
+          405,
+          461
+        ],
+        "forecast": [
+          281.7698282855533,
+          297.7676908419877
+        ],
+        "control_dates": [
+          "2025-10-26",
+          "2025-11-02",
+          "2025-11-09",
+          "2025-11-16"
+        ],
+        "spatially_adjusted_contrast": [
+          0.20308105492788142,
+          0.16302897134421013
+        ]
+      },
+      "2025-09-30": {
+        "forecast_origin": "2025-09-30",
+        "hours": [
+          12,
+          13
+        ],
+        "observed": [
+          405,
+          461
+        ],
+        "forecast": [
+          285.19312506563756,
+          314.0124381069852
+        ],
+        "control_dates": [
+          "2025-10-26",
+          "2025-11-02",
+          "2025-11-09",
+          "2025-11-16"
+        ],
+        "spatially_adjusted_contrast": [
+          0.20502261581883907,
+          0.15145147169135553
+        ]
+      }
+    }
+  },
+  "changes": [
+    {
+      "example_id": "J137455",
+      "date": "2026-10-16T00:00:00.000",
+      "station_id": 3207,
+      "hour": 13,
+      "base": 202.60538329160474,
+      "after": 214.80060970999844,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J137456",
+      "date": "2026-10-16T00:00:00.000",
+      "station_id": 3207,
+      "hour": 14,
+      "base": 195.46134342890932,
+      "after": 225.88043153822173,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J137457",
+      "date": "2026-10-16T00:00:00.000",
+      "station_id": 3207,
+      "hour": 15,
+      "base": 238.55055780031157,
+      "after": 275.9836550434454,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J137458",
+      "date": "2026-10-16T00:00:00.000",
+      "station_id": 3207,
+      "hour": 16,
+      "base": 306.872799028286,
+      "after": 314.02948073592773,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J137459",
+      "date": "2026-10-16T00:00:00.000",
+      "station_id": 3207,
+      "hour": 17,
+      "base": 317.5487920515959,
+      "after": 333.72309019286166,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J138733",
+      "date": "2026-10-17T00:00:00.000",
+      "station_id": 3207,
+      "hour": 13,
+      "base": 249.6312884855432,
+      "after": 292.46733708957674,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J138734",
+      "date": "2026-10-17T00:00:00.000",
+      "station_id": 3207,
+      "hour": 14,
+      "base": 240.2119788622809,
+      "after": 290.5939211555804,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J138735",
+      "date": "2026-10-17T00:00:00.000",
+      "station_id": 3207,
+      "hour": 15,
+      "base": 247.36525429987498,
+      "after": 297.2415510103763,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J138736",
+      "date": "2026-10-17T00:00:00.000",
+      "station_id": 3207,
+      "hour": 16,
+      "base": 255.3634354334522,
+      "after": 310.53937994288964,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J138737",
+      "date": "2026-10-17T00:00:00.000",
+      "station_id": 3207,
+      "hour": 17,
+      "base": 231.77612343123957,
+      "after": 264.55751100273665,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J138738",
+      "date": "2026-10-17T00:00:00.000",
+      "station_id": 3207,
+      "hour": 18,
+      "base": 167.17894485285353,
+      "after": 194.8045087246476,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J142567",
+      "date": "2026-10-20T00:00:00.000",
+      "station_id": 3207,
+      "hour": 13,
+      "base": 183.4860665953499,
+      "after": 194.5361150606545,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J142568",
+      "date": "2026-10-20T00:00:00.000",
+      "station_id": 3207,
+      "hour": 14,
+      "base": 168.92021109352808,
+      "after": 195.22980351814348,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J142569",
+      "date": "2026-10-20T00:00:00.000",
+      "station_id": 3207,
+      "hour": 15,
+      "base": 205.65847208622878,
+      "after": 237.95172472047977,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J142570",
+      "date": "2026-10-20T00:00:00.000",
+      "station_id": 3207,
+      "hour": 16,
+      "base": 256.34785305981313,
+      "after": 262.3300531057642,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J142571",
+      "date": "2026-10-20T00:00:00.000",
+      "station_id": 3207,
+      "hour": 17,
+      "base": 282.8877666768602,
+      "after": 297.3021530800141,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J143845",
+      "date": "2026-10-21T00:00:00.000",
+      "station_id": 3207,
+      "hour": 13,
+      "base": 187.48410224553638,
+      "after": 198.77361859324466,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J143846",
+      "date": "2026-10-21T00:00:00.000",
+      "station_id": 3207,
+      "hour": 14,
+      "base": 171.3145306790319,
+      "after": 197.99484752791372,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J143847",
+      "date": "2026-10-21T00:00:00.000",
+      "station_id": 3207,
+      "hour": 15,
+      "base": 212.51084005000396,
+      "after": 245.87487022152771,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J143848",
+      "date": "2026-10-21T00:00:00.000",
+      "station_id": 3207,
+      "hour": 16,
+      "base": 266.36585543394426,
+      "after": 272.5809297531805,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J143849",
+      "date": "2026-10-21T00:00:00.000",
+      "station_id": 3207,
+      "hour": 17,
+      "base": 283.9340000425079,
+      "after": 298.4015088897069,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J145123",
+      "date": "2026-10-22T00:00:00.000",
+      "station_id": 3207,
+      "hour": 13,
+      "base": 186.98778577119944,
+      "after": 198.24757455629683,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J145124",
+      "date": "2026-10-22T00:00:00.000",
+      "station_id": 3207,
+      "hour": 14,
+      "base": 176.62434876230574,
+      "after": 204.12681118598854,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J145125",
+      "date": "2026-10-22T00:00:00.000",
+      "station_id": 3207,
+      "hour": 15,
+      "base": 212.05312153276896,
+      "after": 245.34562683737954,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J145126",
+      "date": "2026-10-22T00:00:00.000",
+      "station_id": 3207,
+      "hour": 16,
+      "base": 271.8453326139683,
+      "after": 278.1877805570699,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J145127",
+      "date": "2026-10-22T00:00:00.000",
+      "station_id": 3207,
+      "hour": 17,
+      "base": 288.37957356844237,
+      "after": 303.0728061773116,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J146401",
+      "date": "2026-10-23T00:00:00.000",
+      "station_id": 3207,
+      "hour": 13,
+      "base": 211.9213620822297,
+      "after": 224.6745819525839,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J146402",
+      "date": "2026-10-23T00:00:00.000",
+      "station_id": 3207,
+      "hour": 14,
+      "base": 206.33494004801054,
+      "after": 238.43764126842464,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J146403",
+      "date": "2026-10-23T00:00:00.000",
+      "station_id": 3207,
+      "hour": 15,
+      "base": 249.25171667177702,
+      "after": 288.3570184145708,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J146404",
+      "date": "2026-10-23T00:00:00.000",
+      "station_id": 3207,
+      "hour": 16,
+      "base": 312.32653920929346,
+      "after": 319.60999626933693,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J146405",
+      "date": "2026-10-23T00:00:00.000",
+      "station_id": 3207,
+      "hour": 17,
+      "base": 322.30548015576335,
+      "after": 338.7212988850254,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J147679",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3207,
+      "hour": 13,
+      "base": 249.25274015223366,
+      "after": 292.02409007118837,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J147680",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3207,
+      "hour": 14,
+      "base": 241.36816382081193,
+      "after": 291.99159844851306,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J147681",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3207,
+      "hour": 15,
+      "base": 245.70217764370722,
+      "after": 295.24449807000906,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J147682",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3207,
+      "hour": 16,
+      "base": 251.03729314225828,
+      "after": 305.28214158257316,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J147683",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3207,
+      "hour": 17,
+      "base": 224.4720226611677,
+      "after": 256.22478859108253,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J147684",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3207,
+      "hour": 18,
+      "base": 161.30094554225496,
+      "after": 187.96097210772703,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J148957",
+      "date": "2026-10-25T00:00:00.000",
+      "station_id": 3207,
+      "hour": 13,
+      "base": 199.62892775548602,
+      "after": 233.918942193188,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J148958",
+      "date": "2026-10-25T00:00:00.000",
+      "station_id": 3207,
+      "hour": 14,
+      "base": 191.68388793620895,
+      "after": 231.92976862853268,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J148959",
+      "date": "2026-10-25T00:00:00.000",
+      "station_id": 3207,
+      "hour": 15,
+      "base": 189.85722764881717,
+      "after": 228.184858228184,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J148960",
+      "date": "2026-10-25T00:00:00.000",
+      "station_id": 3207,
+      "hour": 16,
+      "base": 188.57408722494924,
+      "after": 229.37526193017052,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J148961",
+      "date": "2026-10-25T00:00:00.000",
+      "station_id": 3207,
+      "hour": 17,
+      "base": 168.7783452497912,
+      "after": 192.68788397241227,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J148962",
+      "date": "2026-10-25T00:00:00.000",
+      "station_id": 3207,
+      "hour": 18,
+      "base": 133.08903941073302,
+      "after": 155.11489601240066,
+      "layer": "dream_park"
+    },
+    {
+      "example_id": "J128193",
+      "date": "2026-10-09T00:00:00.000",
+      "station_id": 3128,
+      "hour": 21,
+      "base": 175.9826714460186,
+      "after": 219.73267144601863,
+      "layer": "neunghudae"
+    },
+    {
+      "example_id": "J129471",
+      "date": "2026-10-10T00:00:00.000",
+      "station_id": 3128,
+      "hour": 21,
+      "base": 159.94681725014962,
+      "after": 203.69681725014956,
+      "layer": "neunghudae"
+    },
+    {
+      "example_id": "J146440",
+      "date": "2026-10-23T00:00:00.000",
+      "station_id": 3209,
+      "hour": 16,
+      "base": 566.2376418719163,
+      "after": 675.991128282139,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J146441",
+      "date": "2026-10-23T00:00:00.000",
+      "station_id": 3209,
+      "hour": 17,
+      "base": 659.4150958209472,
+      "after": 780.5277550477272,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J147718",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3209,
+      "hour": 16,
+      "base": 423.962669163869,
+      "after": 502.34990673158313,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J147719",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3209,
+      "hour": 17,
+      "base": 507.61104976800294,
+      "after": 625.9054159328911,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J146456",
+      "date": "2026-10-23T00:00:00.000",
+      "station_id": 3210,
+      "hour": 14,
+      "base": 548.1952557062153,
+      "after": 578.0435539464403,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J146458",
+      "date": "2026-10-23T00:00:00.000",
+      "station_id": 3210,
+      "hour": 16,
+      "base": 1105.7141133054756,
+      "after": 1312.5815353693774,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J146459",
+      "date": "2026-10-23T00:00:00.000",
+      "station_id": 3210,
+      "hour": 17,
+      "base": 1543.1900641299815,
+      "after": 1898.75783339717,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J146460",
+      "date": "2026-10-23T00:00:00.000",
+      "station_id": 3210,
+      "hour": 18,
+      "base": 983.7690577985295,
+      "after": 1022.8809494904872,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J147734",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3210,
+      "hour": 14,
+      "base": 480.02317512312516,
+      "after": 531.3096404737214,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J147736",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3210,
+      "hour": 16,
+      "base": 928.5848072402655,
+      "after": 1168.665301094664,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J147737",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3210,
+      "hour": 17,
+      "base": 1115.9753315154383,
+      "after": 1468.129329626441,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J147738",
+      "date": "2026-10-24T00:00:00.000",
+      "station_id": 3210,
+      "hour": 18,
+      "base": 362.83905263806577,
+      "after": 412.4751905595247,
+      "layer": "science_refinement"
+    },
+    {
+      "example_id": "J156966",
+      "date": "2026-10-31T00:00:00.000",
+      "station_id": 3226,
+      "hour": 12,
+      "base": 347.2106666068422,
+      "after": 371.59846758764013,
+      "layer": "trail_festival"
+    },
+    {
+      "example_id": "J156967",
+      "date": "2026-10-31T00:00:00.000",
+      "station_id": 3226,
+      "hour": 13,
+      "base": 364.01753108343235,
+      "after": 382.91808391448853,
+      "layer": "trail_festival"
+    }
+  ]
+}

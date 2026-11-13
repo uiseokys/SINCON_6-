@@ -1,0 +1,174 @@
+
+--- 코드 셀 1/11 ---
+
+--- 코드 셀 2/11 ---
+Python 3.12.15 | pandas 3.1.1 | NumPy 2.5.4
+패키지 <실행 폴더>/code/3_stack | 출력 <실행 폴더>/run_outputs/stack
+
+--- 코드 셀 3/11 ---
+data/train.csv | 최대 날짜 date=2026-06-30 | 승하차 실측 또는 실측 log 포함: 2026-06-30 이하 확인
+data/test.csv | 최대 날짜 date=2026-10-31 | 예측 대상 키, 승하차 실측 없음
+cache/hourbias_history_oof.csv.gz | 최대 날짜 date=2026-06-30; origin=2026-04-30 | 승하차 실측 또는 실측 log 포함: 2026-06-30 이하 확인
+cache/calendar_flags.csv | 최대 날짜 date=2026-10-31 | 달력·행사 범위·역 메타데이터, 승하차 실측 없음
+cache/events_frozen_v3.csv | 최대 날짜 date=2026-10-17 | 달력·행사 범위·역 메타데이터, 승하차 실측 없음
+cache/protected_event_keys.csv | 최대 날짜 date=2026-10-31 | 달력·행사 범위·역 메타데이터, 승하차 실측 없음
+cache/downstream_oof_nested_main.csv.gz | 최대 날짜 date=2026-06-30; origin=2026-04-30 | 승하차 실측 또는 실측 log 포함: 2026-06-30 이하 확인
+cache/calendar_features.csv | 최대 날짜 date=2026-10-31 | 달력·행사 범위·역 메타데이터, 승하차 실측 없음
+cache/events_daily.csv | 최대 날짜 date=2026-10-25 | 달력·행사 범위·역 메타데이터, 승하차 실측 없음
+cache/festival_station_days.csv | 최대 날짜 date=2026-10-27 | 달력·행사 범위·역 메타데이터, 승하차 실측 없음
+cache/historical_concerts.csv | 최대 날짜 date=2026-04-11 | 달력·행사 범위·역 메타데이터, 승하차 실측 없음
+reference/submission_night_v4_main.csv | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결
+reference/submission_k1_hourbias.csv | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결
+reference/submission_k3_hourbias_holiday_events.csv | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결
+inputs/submission_monday_main.csv | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결
+inputs/submission_night_v4_main_cup_walk.csv | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결
+reference/submission_k3_geomdan_plave.csv | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결
+reference/submission_k3_geomdan_plave_seasonal_refit.csv | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결
+reference/submission_l1_hourly_curvature.csv | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결
+reference/submission_set2_l1_on_refit.csv | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결
+reference/submission_xgb7_w10_on_curvature.csv | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결
+predictions/xgb_test.npy | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; test.csv 행 순서
+predictions/lgb_test.npy | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; test.csv 행 순서
+predictions/base_test_s0.npy | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; test.csv 행 순서
+predictions/base_test_s1.npy | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; test.csv 행 순서
+predictions/base_test_s2.npy | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; test.csv 행 순서
+predictions/base_test_s3.npy | 최대 날짜 2026-10-31 | 시험기간 예측, 실측 아님; test.csv 행 순서
+inputs/k2_overlay_keys.csv | 최대 날짜 date=2026-10-17 | 달력·행사 범위·역 메타데이터, 승하차 실측 없음
+training_scripts/team_features/external/munhak_games.csv | 최대 날짜 game_date=2026-10-09 | 외생 경기·관중·학교·날씨, 지하철 실측 아님
+training_scripts/team_features/external/crowd_munhak.csv | 최대 날짜 date=2026-10-09 | 외생 경기·관중·학교·날씨, 지하철 실측 아님
+training_scripts/team_features/external/events_daily.csv | 최대 날짜 date=2026-10-25 | 외생 경기·관중·학교·날씨, 지하철 실측 아님
+training_scripts/team_features/external/school_calendar.csv | 최대 날짜 date=2026-10-31 | 외생 경기·관중·학교·날씨, 지하철 실측 아님
+training_scripts/team_features/external/weather_hourly.csv | 최대 날짜 date=2026-10-31 | 외생 경기·관중·학교·날씨, 지하철 실측 아님
+training_scripts/team_features/data/metaData.csv | 최대 날짜 날짜 없음 | 달력·행사 범위·역 메타데이터, 승하차 실측 없음
+training_scripts/team_features/data/train.csv | 최대 날짜 date=2026-06-30 | 승하차 실측 또는 실측 log 포함: 2026-06-30 이하 확인
+training_scripts/team_features/data/test.csv | 최대 날짜 date=2026-10-31 | 예측 대상 키, 승하차 실측 없음
+0: submission_night_v4_main.csv | ID·순서=True | 최대 log1p 차이=8.8817841970012523e-16 | 바이트 일치=False
+공식 학습 실측 최대 날짜 2026-06-30
+과거 예측 정답의 공식 train 일치와 기준일 < 대상 날짜 확인 완료
+
+--- 코드 셀 4/11 ---
+1: submission_k1_hourbias.csv | ID·순서=True | 최대 log1p 차이=8.8817841970012523e-16 | 바이트 일치=False
+{
+  "history_rows": 88668,
+  "history_first_date": "2026-04-08",
+  "history_last_date": "2026-06-30",
+  "history_origins": [
+    "2026-03-31",
+    "2026-04-30"
+  ],
+  "cells_with_correction": 8064,
+  "changed_rows": 129636,
+  "changed_station_days": 7202,
+  "max_abs_log_change": 0.07437426046926117
+}
+
+--- 코드 셀 5/11 ---
+2: submission_k3_hourbias_holiday_events.csv | ID·순서=True | 최대 log1p 차이=8.8817841970012523e-16 | 바이트 일치=False
+{'monday_rows': 2016, 'cup_walk_rows': 11}
+
+--- 코드 셀 6/11 ---
+3: submission_k3_geomdan_plave.csv | ID·순서=True | 최대 log1p 차이=8.8817841970012523e-16 | 바이트 일치=False
+{
+  "lake": {
+    "sign": 1,
+    "effect": 0.0748088716347378,
+    "median_daily_residual": 0.1496177432694756,
+    "fit_start": "2026-05-06",
+    "fit_end": "2026-06-30",
+    "fit_dates": 50,
+    "by_month": {
+      "2026-05": {
+        "days": 22,
+        "mean_daily_residual": 0.14274948231570844
+      },
+      "2026-06": {
+        "days": 28,
+        "mean_daily_residual": 0.14534808406534963
+      }
+    }
+  },
+  "lake_rows": 1872,
+  "plave_rows": 4,
+  "plave_profile": {
+    "0": -0.105,
+    "1": -0.105
+  },
+  "plave_donors": [
+    "jin",
+    "muse",
+    "park_hyo_shin",
+    "ye"
+  ],
+  "plave_validation": {
+    "park_hyo_shin": {
+      "cutoff": "2026-02-28",
+      "donors": [
+        "jin",
+        "muse",
+        "ye"
+      ],
+      "rows": 6,
+      "baseline": 0.5806762042315715,
+      "candidate": 0.49140527773071235,
+      "changed_rows": 6
+    },
+    "muse": {
+      "cutoff": "2025-08-31",
+      "donors": [
+        "ye"
+      ],
+      "rows": 2,
+      "baseline": 0.22117568220715403,
+      "candidate": 0.17467241299231898,
+      "changed_rows": 1
+    },
+    "jin": {
+      "cutoff": "2025-09-30",
+      "donors": [
+        "muse",
+        "ye"
+      ],
+      "rows": 4,
+      "baseline": 0.6832190466140866,
+      "candidate": 0.6321282196635659,
+      "changed_rows": 2
+    }
+  },
+  "plave_pooled_validation": {
+    "rows": 12,
+    "baseline": 0.5764907886217958,
+    "candidate": 0.5089400857002413,
+    "sse_improvement": 0.8798594223985332
+  }
+}
+
+--- 코드 셀 7/11 ---
+4: submission_k3_geomdan_plave_seasonal_refit.csv | ID·순서=True | 최대 log1p 차이=8.8817841970012523e-16 | 바이트 일치=False
+{'fit_days': 327, 'seasonal_rows': 118134, 'max_abs_log_change': 0.03126563860890429}
+
+--- 코드 셀 8/11 ---
+5: submission_set2_l1_on_refit.csv | ID·순서=True | 최대 log1p 차이=8.8817841970012523e-16 | 바이트 일치=False
+{'selected_rows': 11790, 'by_station': {3107: 10, 3108: 113, 3109: 113, 3127: 104, 3139: 94, 3209: 110, 3754: 111}}
+
+--- 코드 셀 9/11 ---
+6: submission_l1_hourly_curvature.csv | ID·순서=True | 최대 log1p 차이=8.8817841970012523e-16 | 바이트 일치=False
+{'changed_rows': 113274, 'max_abs_log_change': 0.065, 'observed_max_date': '2026-06-30'}
+
+--- 코드 셀 10/11 ---
+7: submission_xgb7_w10_on_curvature.csv | ID·순서=True | 최대 log1p 차이=8.8817841970012523e-16 | 바이트 일치=False
+{'weight': 0.1, 'selected_rows': 13662, 'max_abs_log_change': 0.1249090480168734}
+최종 파일 <실행 폴더>/run_outputs/stack/submission_xgb7_w10_on_curvature.csv
+최종 SHA-256 8e1661f54ae6177e420d3ebcf3191c0b8dad4cab33afceef857abae63d537ef5
+지정된 최종 SHA와 일치 False
+
+--- 코드 셀 11/11 ---
+ stage  max_abs_log1p_diff  ids_and_order_match  byte_identical
+     0        8.881784e-16                 True           False
+     1        8.881784e-16                 True           False
+     2        8.881784e-16                 True           False
+     3        8.881784e-16                 True           False
+     4        8.881784e-16                 True           False
+     5        8.881784e-16                 True           False
+     6        8.881784e-16                 True           False
+     7        8.881784e-16                 True           False
+실행 결과 저장 <실행 폴더>/run_outputs/stack/stack_verification.json

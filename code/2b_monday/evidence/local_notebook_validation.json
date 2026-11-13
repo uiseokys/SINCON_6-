@@ -1,0 +1,70 @@
+{
+  "all_passed": true,
+  "created_kst": "2026-11-13T11:16:47.158437+09:00",
+  "runs": [
+    {
+      "environment": "py311",
+      "case": "reference",
+      "python": "3.11.17",
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "code_cells": 6,
+      "max_abs_log1p_difference": 0.0,
+      "monday_disabled_max_abs_log1p_difference": 0.0,
+      "equivalent_input_max_abs_log1p_difference": 0.0,
+      "package_readonly": true,
+      "inputs_unchanged": true,
+      "network_and_socket_blocked": true,
+      "original_project_reads_blocked": true,
+      "execution_backend": "standard-library sequential compile/exec; no Jupyter kernel"
+    },
+    {
+      "environment": "py311",
+      "case": "numeric_equivalence",
+      "python": "3.11.17",
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "code_cells": 6,
+      "max_abs_log1p_difference": 0.0,
+      "monday_disabled_max_abs_log1p_difference": 0.0,
+      "equivalent_input_max_abs_log1p_difference": 9.000000744663339e-10,
+      "package_readonly": true,
+      "inputs_unchanged": true,
+      "network_and_socket_blocked": true,
+      "original_project_reads_blocked": true,
+      "execution_backend": "standard-library sequential compile/exec; no Jupyter kernel"
+    },
+    {
+      "environment": "py312",
+      "case": "reference",
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "code_cells": 6,
+      "max_abs_log1p_difference": 0.0,
+      "monday_disabled_max_abs_log1p_difference": 0.0,
+      "equivalent_input_max_abs_log1p_difference": 0.0,
+      "package_readonly": true,
+      "inputs_unchanged": true,
+      "network_and_socket_blocked": true,
+      "original_project_reads_blocked": true,
+      "execution_backend": "standard-library sequential compile/exec; no Jupyter kernel"
+    },
+    {
+      "environment": "py312",
+      "case": "numeric_equivalence",
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "code_cells": 6,
+      "max_abs_log1p_difference": 0.0,
+      "monday_disabled_max_abs_log1p_difference": 0.0,
+      "equivalent_input_max_abs_log1p_difference": 9.000000744663339e-10,
+      "package_readonly": true,
+      "inputs_unchanged": true,
+      "network_and_socket_blocked": true,
+      "original_project_reads_blocked": true,
+      "execution_backend": "standard-library sequential compile/exec; no Jupyter kernel"
+    }
+  ]
+}

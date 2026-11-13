@@ -1,0 +1,807 @@
+{
+  "clean_base_sha256": "3e3f37ea2411631580a302a2c1589f0b37ca4d4f3e291725d2d0c4e45992b0ab",
+  "protected_station_days": 45,
+  "protected_station_hours": 810,
+  "stages": {
+    "station_profiles": {
+      "changed_rows": 2640,
+      "max_abs_log_delta": 0.13500000000000023,
+      "evidence": {
+        "recent_days": 50,
+        "opening_days": 14,
+        "weekday_groups": {
+          "opening_profile": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "recent_profile": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "recent_relative_to_neighbors": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    "tabicl_fixed": {
+      "changed_rows": 119484,
+      "max_abs_log_delta": 0.025909028823189795
+    },
+    "dongchun_retail": {
+      "changed_rows": 156,
+      "max_abs_log_delta": 0.08124999999999982,
+      "evidence": {
+        "fit": {
+          "1": {
+            "months": 12,
+            "error": -0.15488839178952687,
+            "observed": -0.18488270187546219,
+            "base": -0.02999431008593545
+          },
+          "2": {
+            "months": 12,
+            "error": -0.30259562811841284,
+            "observed": -0.3265070782137927,
+            "base": -0.023911450095379278
+          },
+          "3": {
+            "months": 12,
+            "error": -0.2872573448578901,
+            "observed": -0.30389422778566466,
+            "base": -0.016636882927774394
+          }
+        },
+        "prior_sundays": 49,
+        "closed": [
+          "2026-07-12",
+          "2026-07-26",
+          "2026-08-09",
+          "2026-08-23",
+          "2026-09-13",
+          "2026-10-25"
+        ],
+        "open": [
+          "2026-07-05",
+          "2026-08-02",
+          "2026-08-30",
+          "2026-09-06",
+          "2026-09-20",
+          "2026-10-18"
+        ],
+        "rows": 156,
+        "log_delta_min": -0.08125,
+        "log_delta_max": 0.08125
+      }
+    },
+    "lunar_eve_and_day": {
+      "changed_rows": 2340,
+      "max_abs_log_delta": 0.08000000000000007,
+      "evidence": {
+        "2026-09-24": {
+          "phase": -1,
+          "ordinary_sundays": 11,
+          "donors": [
+            "2025-01-28",
+            "2025-10-05",
+            "2026-02-16"
+          ],
+          "prior_relative_log_profile": [
+            -0.2777213367641731,
+            -0.27163137481888233,
+            -0.2108660402860174,
+            -0.1175907649368435
+          ],
+          "base_relative_log_profile": [
+            -0.05790345395859253,
+            -0.026312020802250924,
+            0.02621474731170359,
+            0.08580320865899349
+          ],
+          "adjustment": [
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1
+          ]
+        },
+        "2026-09-25": {
+          "phase": 0,
+          "ordinary_sundays": 11,
+          "donors": [
+            "2025-01-29",
+            "2025-10-06",
+            "2026-02-17"
+          ],
+          "prior_relative_log_profile": [
+            -0.5039705797967242,
+            -0.4672088881452239,
+            -0.24167786074755337,
+            -0.07754585826141991
+          ],
+          "base_relative_log_profile": [
+            -0.2744613121674906,
+            -0.3744839256258512,
+            -0.26360834677328704,
+            -0.05297407752380234
+          ],
+          "adjustment": [
+            -0.1,
+            -0.04636248125968634,
+            0.010965243012866832,
+            -0.012285890368808783
+          ]
+        },
+        "2026-09-26": {
+          "phase": 1,
+          "ordinary_sundays": 11,
+          "donors": [
+            "2025-01-30",
+            "2025-10-07",
+            "2026-02-18"
+          ],
+          "prior_relative_log_profile": [
+            -0.4498974250481531,
+            -0.2544201706883613,
+            -0.12225731605130452,
+            0.028573372444055778
+          ],
+          "base_relative_log_profile": [
+            -0.14192470714362093,
+            0.018760295512488145,
+            0.06599855467481142,
+            0.21015928649238003
+          ],
+          "adjustment": [
+            -0.1,
+            -0.1,
+            -0.09412793536305797,
+            -0.09079295702416212
+          ]
+        }
+      }
+    },
+    "geomdan_morning": {
+      "changed_rows": 416,
+      "max_abs_log_delta": 0.0650623868902267,
+      "evidence": {
+        "donor_days": 50,
+        "target_days": 104,
+        "median_deltas": {
+          "relative_morning": 0.08762196400147904,
+          "relative_peak_share": 0.011333279484742276
+        }
+      }
+    },
+    "tabicl_lead_weight": {
+      "changed_rows": 91584,
+      "max_abs_log_delta": 0.04429254279917316,
+      "evidence": {
+        "7": 0.3,
+        "8": 0.3,
+        "9": 0.2,
+        "10": 0.1
+      }
+    },
+    "vector_xgboost": {
+      "changed_rows": 119178,
+      "max_abs_log_delta": 0.05999999999999961,
+      "evidence": {
+        "weight": 0.2,
+        "raw_forecast_sha256": "ce830ea0813e0907667a59ba3bfd9899c2a26e0979ac6985d492dab49bbf2ea0"
+      }
+    }
+  },
+  "inputs": {
+    "train": {
+      "file": "train.csv",
+      "sha256": "1b3b21e8f1fe22a44c0ff4adba315784a5c21caea25098a15869c4ed370822bc"
+    },
+    "test": {
+      "file": "test.csv",
+      "sha256": "d257fed268db7919fd8fbc45b6c78dfbdb09b6bb40d4ae1d3f2a666c6e69fefa"
+    },
+    "clean_base": {
+      "file": "events.csv",
+      "sha256": "3e3f37ea2411631580a302a2c1589f0b37ca4d4f3e291725d2d0c4e45992b0ab"
+    },
+    "protected_keys": {
+      "file": "protected.csv",
+      "sha256": "deb1070490e221e5df76145e81ecb3c249d14c6d1349337ddd83620e6bdfe796"
+    },
+    "clean_oof": {
+      "file": "sincon_clean_event_oof.csv.gz",
+      "sha256": "3f753afc8c5fa76f199fd0d859a98beee044f96b8def50182e57e0b9860e93dd"
+    },
+    "tabicl_daily": {
+      "file": "sincon_clean_tabicl_final.csv",
+      "sha256": "f87f60f63f31c27549d84996e7b6ea88ccc9501daf16d9a18aeb660d20b6ac67"
+    },
+    "tabicl_oof": {
+      "file": "sincon_clean_tabicl_oof.csv",
+      "sha256": "244473f0c1d592368b3c758c21e63a0c5cc7416c38aa957d96fb5329f70e6d7f"
+    },
+    "vector": {
+      "file": "sincon_vector_shape_final_raw.csv.gz",
+      "sha256": "ce830ea0813e0907667a59ba3bfd9899c2a26e0979ac6985d492dab49bbf2ea0"
+    },
+    "vector_oof_warm": {
+      "file": "sincon_clean_vector_oof_warm.csv.gz",
+      "sha256": "3df92224f315b639aee7c88aa00b401c56648d84c9f69bc6d7d0929bd44c6f85"
+    }
+  },
+  "station_profiles_clean_validation": {
+    "2025-07-31": {
+      "reference": 0.1815226667294127,
+      "candidate": 0.1806534515711378,
+      "rows": 155916,
+      "changed_rows": 3015
+    },
+    "2025-08-31": {
+      "reference": 0.1779462204695857,
+      "candidate": 0.177756879492712,
+      "rows": 155916,
+      "changed_rows": 3267
+    },
+    "2025-09-30": {
+      "reference": 0.17250769361243726,
+      "candidate": 0.1722498299633163,
+      "rows": 157194,
+      "changed_rows": 3522
+    },
+    "2026-03-31": {
+      "reference": 0.14989623826546772,
+      "candidate": 0.1494691212656183,
+      "rows": 116298,
+      "changed_rows": 2025
+    },
+    "2026-04-30": {
+      "reference": 0.14387916327882172,
+      "candidate": 0.1436781553144813,
+      "rows": 77958,
+      "changed_rows": 1320
+    },
+    "A": {
+      "reference": 0.15080683727691144,
+      "candidate": 0.15048198626768344,
+      "rows": 155916,
+      "changed_rows": 2751
+    },
+    "B": {
+      "reference": 0.16572745273324654,
+      "candidate": 0.1652338065821365,
+      "rows": 153360,
+      "changed_rows": 3114
+    },
+    "C": {
+      "reference": 0.16233937152110864,
+      "candidate": 0.16190055568987693,
+      "rows": 153360,
+      "changed_rows": 3561
+    },
+    "summer": {
+      "reference": 0.2548753298574602,
+      "candidate": 0.2547033513118126,
+      "rows": 157194,
+      "changed_rows": 1188
+    },
+    "disjoint_A_C": {
+      "reference": 0.15663161827585964,
+      "candidate": 0.1562484225537976,
+      "rows": 309276,
+      "changed_rows": 6312
+    },
+    "disjoint_warm": {
+      "reference": 0.17575324829394856,
+      "candidate": 0.17532275269917874,
+      "rows": 117576,
+      "changed_rows": 2061
+    },
+    "summer_established_68": {
+      "reference": 0.18990010036036734,
+      "candidate": 0.18965902350214628,
+      "rows": 150552,
+      "changed_rows": 1188
+    }
+  },
+  "tabicl_clean_validation": {
+    "comparisons": {
+      "2025-07-31": {
+        "rows": 155916,
+        "baseline": 0.1806534515711378,
+        "fixed": 0.1805198669064511,
+        "guarded": 0.18038196084752237
+      },
+      "2025-08-31": {
+        "rows": 155916,
+        "baseline": 0.177756879492712,
+        "fixed": 0.17765603380942227,
+        "guarded": 0.17763262260097626
+      },
+      "2025-09-30": {
+        "rows": 157194,
+        "baseline": 0.1722498299633163,
+        "fixed": 0.17213134498287772,
+        "guarded": 0.1720532878638044
+      },
+      "2026-03-31": {
+        "rows": 116298,
+        "baseline": 0.1494691212656183,
+        "fixed": 0.14930371046152902,
+        "guarded": 0.14912171718857262
+      },
+      "2026-04-30": {
+        "rows": 77958,
+        "baseline": 0.1436781553144813,
+        "fixed": 0.14362533091465343,
+        "guarded": 0.1436461692478998
+      },
+      "A": {
+        "rows": 155916,
+        "baseline": 0.15048198626768344,
+        "fixed": 0.1503449580444364,
+        "guarded": 0.15017751877662588
+      },
+      "B": {
+        "rows": 153360,
+        "baseline": 0.1652338065821365,
+        "fixed": 0.16511226442543878,
+        "guarded": 0.16507115603128977
+      },
+      "C": {
+        "rows": 153360,
+        "baseline": 0.16190055568987693,
+        "fixed": 0.16178198998531015,
+        "guarded": 0.16167661245985557
+      },
+      "summer": {
+        "rows": 157194,
+        "baseline": 0.2547033513118126,
+        "fixed": 0.25425985203959417,
+        "guarded": 0.25389005393810293
+      },
+      "disjoint_A_C": {
+        "rows": 309276,
+        "baseline": 0.1562484225537976,
+        "fixed": 0.1561209725903349,
+        "guarded": 0.15598554014595836
+      },
+      "disjoint_warm": {
+        "rows": 117576,
+        "baseline": 0.17532275269917874,
+        "fixed": 0.17517442501444866,
+        "guarded": 0.1750152017820091
+      },
+      "summer_established_68": {
+        "rows": 150552,
+        "baseline": 0.18965902350214628,
+        "fixed": 0.18903666823662368,
+        "guarded": 0.18851699868659363
+      }
+    },
+    "fixed_10pct_accepted": true,
+    "guarded_accepted": true,
+    "fit_by_origin": {
+      "A": {
+        "weight": 0.3,
+        "prior_dates": 221,
+        "fallback": false,
+        "latest_prior_date": "2026-02-28",
+        "unbounded_weight_after_shrinkage": 0.47736394127890414
+      },
+      "B": {
+        "weight": 0.3,
+        "prior_dates": 170,
+        "fallback": false,
+        "latest_prior_date": "2025-12-30",
+        "unbounded_weight_after_shrinkage": 0.5261190846331342
+      },
+      "C": {
+        "weight": 0.3,
+        "prior_dates": 112,
+        "fallback": false,
+        "latest_prior_date": "2025-10-31",
+        "unbounded_weight_after_shrinkage": 0.5537388345887084
+      },
+      "summer": {
+        "weight": 0.2,
+        "prior_dates": 0,
+        "fallback": true
+      },
+      "2025-07-31": {
+        "weight": 0.3,
+        "prior_dates": 31,
+        "fallback": false,
+        "latest_prior_date": "2025-07-31",
+        "unbounded_weight_after_shrinkage": 0.5664757272166625
+      },
+      "2025-08-31": {
+        "weight": 0.3,
+        "prior_dates": 59,
+        "fallback": false,
+        "latest_prior_date": "2025-08-31",
+        "unbounded_weight_after_shrinkage": 0.6260767912942916
+      },
+      "2025-09-30": {
+        "weight": 0.3,
+        "prior_dates": 89,
+        "fallback": false,
+        "latest_prior_date": "2025-09-30",
+        "unbounded_weight_after_shrinkage": 0.5691255484427605
+      },
+      "2026-03-31": {
+        "weight": 0.3,
+        "prior_dates": 249,
+        "fallback": false,
+        "latest_prior_date": "2026-03-31",
+        "unbounded_weight_after_shrinkage": 0.4789352165744859
+      },
+      "2026-04-30": {
+        "weight": 0.3,
+        "prior_dates": 278,
+        "fallback": false,
+        "latest_prior_date": "2026-04-29",
+        "unbounded_weight_after_shrinkage": 0.501235552314832
+      }
+    },
+    "final_fit": {
+      "weight": 0.3,
+      "prior_dates": 330,
+      "fallback": false,
+      "latest_prior_date": "2026-06-30",
+      "unbounded_weight_after_shrinkage": 0.42689142799815616
+    }
+  },
+  "dongchun_retail_clean_validation": {
+    "accepted": true,
+    "comparisons": {
+      "2025-07-31": {
+        "reference": 0.1805198669064511,
+        "candidate": 0.1805198669064511,
+        "rows": 155916,
+        "changed_rows": 0
+      },
+      "2025-08-31": {
+        "reference": 0.17765603380942227,
+        "candidate": 0.17760512865282452,
+        "rows": 155916,
+        "changed_rows": 208
+      },
+      "2025-09-30": {
+        "reference": 0.17213134498287772,
+        "candidate": 0.1720868340171759,
+        "rows": 157194,
+        "changed_rows": 208
+      },
+      "2026-03-31": {
+        "reference": 0.14930371046152902,
+        "candidate": 0.14925310685518106,
+        "rows": 116298,
+        "changed_rows": 156
+      },
+      "2026-04-30": {
+        "reference": 0.14362533091465343,
+        "candidate": 0.14357206533598293,
+        "rows": 77958,
+        "changed_rows": 104
+      },
+      "A": {
+        "reference": 0.1503449580444364,
+        "candidate": 0.15029632812986168,
+        "rows": 155916,
+        "changed_rows": 208
+      },
+      "B": {
+        "reference": 0.16511226442543878,
+        "candidate": 0.16506938099565868,
+        "rows": 153360,
+        "changed_rows": 208
+      },
+      "C": {
+        "reference": 0.16178198998531015,
+        "candidate": 0.16172947739056723,
+        "rows": 153360,
+        "changed_rows": 221
+      },
+      "summer": {
+        "reference": 0.25425985203959417,
+        "candidate": 0.25425985203959417,
+        "rows": 157194,
+        "changed_rows": 0
+      },
+      "disjoint_A_C": {
+        "reference": 0.1561209725903349,
+        "candidate": 0.15607038019898178,
+        "rows": 309276,
+        "changed_rows": 429
+      },
+      "disjoint_warm": {
+        "reference": 0.17517442501444866,
+        "candidate": 0.17514184668624194,
+        "rows": 117576,
+        "changed_rows": 91
+      },
+      "summer_established_68": {
+        "reference": 0.18903666823662368,
+        "candidate": 0.18903666823662368,
+        "rows": 150552,
+        "changed_rows": 0
+      }
+    }
+  },
+  "lunar_clean_validation": {
+    "2025-07-31": {
+      "reference": 0.1805198669064511,
+      "candidate": 0.18012346783360872,
+      "rows": 155916,
+      "changed_rows": 2340
+    },
+    "2025-08-31": {
+      "reference": 0.17760512865282452,
+      "candidate": 0.17715577651222844,
+      "rows": 155916,
+      "changed_rows": 2340
+    },
+    "2025-09-30": {
+      "reference": 0.1720868340171759,
+      "candidate": 0.17165876547606684,
+      "rows": 157194,
+      "changed_rows": 2340
+    },
+    "2026-03-31": {
+      "reference": 0.14925310685518106,
+      "candidate": 0.14925310685518106,
+      "rows": 116298,
+      "changed_rows": 0
+    },
+    "2026-04-30": {
+      "reference": 0.14357206533598293,
+      "candidate": 0.14357206533598293,
+      "rows": 77958,
+      "changed_rows": 0
+    },
+    "A": {
+      "reference": 0.15029632812986168,
+      "candidate": 0.15029632812986168,
+      "rows": 155916,
+      "changed_rows": 0
+    },
+    "B": {
+      "reference": 0.16506938099565868,
+      "candidate": 0.16473430482564533,
+      "rows": 153360,
+      "changed_rows": 2340
+    },
+    "C": {
+      "reference": 0.16172947739056723,
+      "candidate": 0.16137665541781882,
+      "rows": 153360,
+      "changed_rows": 2340
+    },
+    "summer": {
+      "reference": 0.25425985203959417,
+      "candidate": 0.2536490841201395,
+      "rows": 157194,
+      "changed_rows": 2340
+    },
+    "disjoint_A_C": {
+      "reference": 0.15607038019898178,
+      "candidate": 0.15588917593558443,
+      "rows": 309276,
+      "changed_rows": 2340
+    },
+    "disjoint_warm": {
+      "reference": 0.17514184668624194,
+      "candidate": 0.17457931650345926,
+      "rows": 117576,
+      "changed_rows": 2340
+    },
+    "summer_established_68": {
+      "reference": 0.18903666823662368,
+      "candidate": 0.18817800488012848,
+      "rows": 150552,
+      "changed_rows": 2340
+    }
+  },
+  "morning_clean_validation": {
+    "2025-07-31": {
+      "reference": 0.18012346783360872,
+      "candidate": 0.1800228455899686,
+      "rows": 155916,
+      "changed_rows": 444
+    },
+    "2025-08-31": {
+      "reference": 0.17715577651222844,
+      "candidate": 0.17713709601245675,
+      "rows": 155916,
+      "changed_rows": 444
+    },
+    "2025-09-30": {
+      "reference": 0.17165876547606684,
+      "candidate": 0.17169632942021845,
+      "rows": 157194,
+      "changed_rows": 440
+    },
+    "2026-03-31": {
+      "reference": 0.14925310685518106,
+      "candidate": 0.14915535824104775,
+      "rows": 116298,
+      "changed_rows": 324
+    },
+    "2026-04-30": {
+      "reference": 0.14357206533598293,
+      "candidate": 0.14344749356829728,
+      "rows": 77958,
+      "changed_rows": 208
+    },
+    "A": {
+      "reference": 0.15029632812986168,
+      "candidate": 0.15020383253488115,
+      "rows": 155916,
+      "changed_rows": 436
+    },
+    "B": {
+      "reference": 0.16473430482564533,
+      "candidate": 0.16471471751554256,
+      "rows": 153360,
+      "changed_rows": 432
+    },
+    "C": {
+      "reference": 0.16137665541781882,
+      "candidate": 0.1613750085724266,
+      "rows": 153360,
+      "changed_rows": 436
+    },
+    "summer": {
+      "reference": 0.2536490841201395,
+      "candidate": 0.2536490841201395,
+      "rows": 157194,
+      "changed_rows": 0
+    },
+    "disjoint_A_C": {
+      "reference": 0.15588917593558443,
+      "candidate": 0.15584338062137126,
+      "rows": 309276,
+      "changed_rows": 872
+    },
+    "disjoint_warm": {
+      "reference": 0.17457931650345926,
+      "candidate": 0.17454265318939807,
+      "rows": 117576,
+      "changed_rows": 324
+    },
+    "summer_established_68": {
+      "reference": 0.18817800488012848,
+      "candidate": 0.18817800488012848,
+      "rows": 150552,
+      "changed_rows": 0
+    }
+  },
+  "vector_clean_validation": {
+    "accepted": true,
+    "comparisons": {
+      "2025-07-31": {
+        "reference": 0.17988455849678692,
+        "candidate": 0.179802033687395,
+        "rows": 155916,
+        "changed_rows": 127458
+      },
+      "2025-08-31": {
+        "reference": 0.17711361620985722,
+        "candidate": 0.17702296628576106,
+        "rows": 155916,
+        "changed_rows": 128088
+      },
+      "2025-09-30": {
+        "reference": 0.1716180744429527,
+        "candidate": 0.1715248337452619,
+        "rows": 157194,
+        "changed_rows": 127944
+      },
+      "A": {
+        "reference": 0.15003623577218636,
+        "candidate": 0.14990400341391144,
+        "rows": 155916,
+        "changed_rows": 126342
+      },
+      "B": {
+        "reference": 0.16467350987950483,
+        "candidate": 0.16457615099481157,
+        "rows": 153360,
+        "changed_rows": 125280
+      },
+      "C": {
+        "reference": 0.161269365115133,
+        "candidate": 0.16117494249451614,
+        "rows": 153360,
+        "changed_rows": 127152
+      },
+      "summer": {
+        "reference": 0.25327839427097226,
+        "candidate": 0.2531636003004309,
+        "rows": 157194,
+        "changed_rows": 128466
+      },
+      "disjoint_A_C": {
+        "reference": 0.15570770673146492,
+        "candidate": 0.1555949804236466,
+        "rows": 309276,
+        "changed_rows": 253494
+      },
+      "disjoint_warm": {
+        "reference": 0.17438285310789348,
+        "candidate": 0.17430174495501377,
+        "rows": 117576,
+        "changed_rows": 92502
+      },
+      "summer_established_68": {
+        "reference": 0.18765595747661057,
+        "candidate": 0.1874941520262035,
+        "rows": 150552,
+        "changed_rows": 128466
+      }
+    }
+  },
+  "combined_clean_validation": {
+    "2025-07-31": {
+      "reference": 0.1815226667294127,
+      "candidate": 0.179802033687395,
+      "rows": 155916
+    },
+    "2025-08-31": {
+      "reference": 0.1779462204695857,
+      "candidate": 0.17702296628576106,
+      "rows": 155916
+    },
+    "2025-09-30": {
+      "reference": 0.17250769361243726,
+      "candidate": 0.1715248337452619,
+      "rows": 157194
+    },
+    "A": {
+      "reference": 0.15080683727691144,
+      "candidate": 0.14990400341391144,
+      "rows": 155916
+    },
+    "B": {
+      "reference": 0.16572745273324654,
+      "candidate": 0.16457615099481157,
+      "rows": 153360
+    },
+    "C": {
+      "reference": 0.16233937152110864,
+      "candidate": 0.16117494249451614,
+      "rows": 153360
+    },
+    "summer": {
+      "reference": 0.2548753298574602,
+      "candidate": 0.2531636003004309,
+      "rows": 157194
+    },
+    "disjoint_A_C": {
+      "reference": 0.15663161827585964,
+      "candidate": 0.1555949804236466,
+      "rows": 309276
+    },
+    "disjoint_warm": {
+      "reference": 0.17575324829394856,
+      "candidate": 0.17430174495501377,
+      "rows": 117576
+    },
+    "summer_established_68": {
+      "reference": 0.18990010036036734,
+      "candidate": 0.1874941520262035,
+      "rows": 150552
+    }
+  },
+  "changed_rows": 124464,
+  "rows": 157194,
+  "sha256": "ec8d895ddcafb59e701f096a04e7a8b650d2321645161402b82e579fcb0c0b0f"
+}

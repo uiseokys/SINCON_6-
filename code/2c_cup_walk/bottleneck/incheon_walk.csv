@@ -1,0 +1,4 @@
+date,station_id,event_id,start_kst,end_kst,planned_size,source,license,rights_holder,retrieved_kst
+2025-09-27,3226,stroller_walk_2025,10:30,16:00,700 families,https://www.incheon.go.kr/mayor_9/MA05010000/view?beginDt=&curPage=199&endDt=&repSeq=DOM_0000000013159066&srchMainManagerDeptNm=&srchRepContents=&srchRepTitle=,KOGL Type 1,인천광역시,2026-11-13
+2025-10-25,3226,incheon_love_walk_2025,09:30,13:30,2000 people,https://www.incheon.go.kr/IC010101/view?nttNo=2045192,KOGL Type 1,인천광역시,2026-11-13
+2026-10-17,3226,incheon_love_walk_2026,09:30,13:30,3000 people,https://www.incheon.go.kr/health/HE060101/view?nttNo=2046204,KOGL Type 1,인천광역시,2026-11-13

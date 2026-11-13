@@ -1,0 +1,126 @@
+{
+  "folds": {
+    "A": {
+      "rows": 155916,
+      "weights": {
+        "housing": 1.4999999999999998,
+        "holiday": 0.8192374517214484,
+        "bus": 0.6261603672822263,
+        "annual": 1.0,
+        "regime": 0.6482872718251019,
+        "weekly_and_peak": 1.1069645056999622
+      },
+      "pre_origin_days": 120,
+      "uncalibrated": {
+        "baseline": 0.15239512587611193,
+        "fixed": 0.14999441735007943,
+        "learned": 0.1491057956944717
+      },
+      "prior_only_calibration": {
+        "baseline": 0.15231686374165143,
+        "fixed": 0.15115633566455922,
+        "learned": 0.14954609295714535
+      }
+    },
+    "B": {
+      "rows": 153360,
+      "weights": {
+        "housing": 1.3815967276975114,
+        "holiday": 1.0,
+        "bus": 0.3375350793177896,
+        "annual": 1.0,
+        "regime": 0.4530732700597279,
+        "weekly_and_peak": 1.0214961743355724
+      },
+      "pre_origin_days": 61,
+      "uncalibrated": {
+        "baseline": 0.16598043249909986,
+        "fixed": 0.16331899447609532,
+        "learned": 0.16284395611251587
+      },
+      "prior_only_calibration": {
+        "baseline": 0.16920256200978442,
+        "fixed": 0.1654576114523274,
+        "learned": 0.16459059491129183
+      }
+    },
+    "C": {
+      "rows": 153360,
+      "weights": {
+        "housing": 1.0,
+        "holiday": 1.0,
+        "bus": 1.0,
+        "annual": 1.0,
+        "regime": 1.0,
+        "weekly_and_peak": 1.0
+      },
+      "pre_origin_days": 0,
+      "uncalibrated": {
+        "baseline": 0.16316373710613066,
+        "fixed": 0.16182347080387655,
+        "learned": 0.16182347080387655
+      },
+      "prior_only_calibration": {
+        "baseline": 0.1619969004811354,
+        "fixed": 0.16043773412670065,
+        "learned": 0.16043773412670065
+      }
+    }
+  },
+  "adoption_folds": [
+    "A",
+    "B"
+  ],
+  "prior_only_calibration_adoption_folds": [
+    "B"
+  ],
+  "accepted": true,
+  "replay": {
+    "A": {
+      "rows": 155916,
+      "rmsle": 0.14910579569813961,
+      "max_component_log_difference": 4.999995972809756e-10,
+      "seconds": 83.53
+    },
+    "B": {
+      "rows": 153360,
+      "rmsle": 0.16284395611302102,
+      "max_component_log_difference": 4.999981401132558e-10,
+      "seconds": 69.28
+    },
+    "C": {
+      "rows": 153360,
+      "rmsle": 0.161823470805304,
+      "max_component_log_difference": 4.999988634929453e-10,
+      "seconds": 57.29
+    }
+  },
+  "additional_origins": [
+    {
+      "origin": "2026-03-31",
+      "end": "2026-06-30",
+      "rows": 116298,
+      "baseline": 0.1509992566785685,
+      "fixed": 0.1492603769214651,
+      "learned": 0.1486560523953413,
+      "prior_calibrated_baseline": 0.15096967263900402,
+      "prior_calibrated_learned": 0.14956585149479937,
+      "pre_origin_days": 151,
+      "overlaps_main_backtests": true
+    }
+  ],
+  "submission": {
+    "path": "PORTABLE_SOURCE_PATH",
+    "rows": 157194,
+    "pre_origin_days": 242,
+    "weights": {
+      "housing": 1.3660021938632074,
+      "holiday": 0.6903522519354263,
+      "bus": 0.626984194778158,
+      "annual": 0.6066590294350072,
+      "regime": 0.49134183981564467,
+      "weekly_and_peak": 0.7096893355751274
+    },
+    "max_calibration_reference_count_difference": 5.684341886080802e-14
+  }
+}

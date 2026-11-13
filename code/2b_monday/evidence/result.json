@@ -1,0 +1,52 @@
+{
+  "verdict": "기준 충족",
+  "passed": true,
+  "created_kst": "2026-11-13T11:13:12.695501+09:00",
+  "candidate": "night14/submission_monday_main.csv",
+  "candidate_sha256": "f503ec6079535040d9c78c4fa23590c406594005f11a0a6edb8349a2a8eb944c",
+  "rows": 157194,
+  "changed_rows_exact": 2016,
+  "max_abs_log_difference": 0.04999999999999982,
+  "hour_station_sum_max_abs": 4.884981308350689e-15,
+  "main_reproduction_max_log_error": 0.0,
+  "monday_disabled_max_log_error": 0.0,
+  "unchanged_row_representation_max_log_error": 0.0,
+  "validation_summary": [
+    {
+      "path": "nested",
+      "origins": 9,
+      "active": 4,
+      "improved": 4,
+      "worsened": 0,
+      "unchanged": 0,
+      "best_delta": -3.33121838226591e-05,
+      "worst_delta": -5.481546770935708e-06
+    },
+    {
+      "path": "old",
+      "origins": 9,
+      "active": 4,
+      "improved": 4,
+      "worsened": 0,
+      "unchanged": 0,
+      "best_delta": -3.331052612923213e-05,
+      "worst_delta": -5.665867822052251e-06
+    }
+  ],
+  "unique_historical_target_dates": [
+    "2026-03-02",
+    "2026-05-25"
+  ],
+  "final_order": [
+    "timecapsule",
+    "plave_existing",
+    "station025",
+    "friday",
+    "monday",
+    "plave22",
+    "lunar3122"
+  ],
+  "protected_changes": 0,
+  "excluded_changes": 0,
+  "package_required": true
+}

@@ -1,0 +1,171 @@
+{
+  "success": true,
+  "created_kst": "2026-11-13T11:17:42.710122+09:00",
+  "preregistration_first_record_preserved": true,
+  "source_files_checked_unchanged": 387,
+  "source_structure": {
+    "existing_functions_unchanged": true,
+    "remove_monday_restores_original_bytes": true
+  },
+  "rows": 157194,
+  "changed_rows": 2016,
+  "max_abs_log_difference": 0.04999999999999982,
+  "hour_station_sum_max_abs": 4.884981308350689e-15,
+  "protected_changes": 0,
+  "excluded_changes": 0,
+  "no_donor_identity": true,
+  "insufficient_control_identity": true,
+  "synthetic_protection_honored": true,
+  "search_depth_drive_symlink_checks": true,
+  "wrong_kind_rejected": true,
+  "input_rejections": [
+    {
+      "case": "outside_tolerance",
+      "rejected": true,
+      "message": "1단계 CSV 최대 log1p 차이가 1e-9를 넘습니다"
+    },
+    {
+      "case": "wrong_ids",
+      "rejected": true,
+      "message": "공식 example_id 순서 불일치"
+    },
+    {
+      "case": "negative",
+      "rejected": true,
+      "message": "유한한 비음수 예측이 필요합니다"
+    },
+    {
+      "case": "nonfinite",
+      "rejected": true,
+      "message": "유한한 비음수 예측이 필요합니다"
+    }
+  ],
+  "historical_metric_checks": [
+    {
+      "path": "old",
+      "origin": "2025-06-30",
+      "rows": 157194,
+      "changed_rows": 0,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "old",
+      "origin": "2025-07-31",
+      "rows": 155916,
+      "changed_rows": 0,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "old",
+      "origin": "2025-08-31",
+      "rows": 155916,
+      "changed_rows": 0,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "old",
+      "origin": "2025-09-30",
+      "rows": 157194,
+      "changed_rows": 0,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "old",
+      "origin": "2025-10-31",
+      "rows": 153360,
+      "changed_rows": 0,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "old",
+      "origin": "2025-12-31",
+      "rows": 153360,
+      "changed_rows": 1008,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "old",
+      "origin": "2026-02-28",
+      "rows": 155916,
+      "changed_rows": 2016,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "old",
+      "origin": "2026-03-31",
+      "rows": 116298,
+      "changed_rows": 1008,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "old",
+      "origin": "2026-04-30",
+      "rows": 77958,
+      "changed_rows": 1008,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "nested",
+      "origin": "2025-06-30",
+      "rows": 157194,
+      "changed_rows": 0,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "nested",
+      "origin": "2025-07-31",
+      "rows": 155916,
+      "changed_rows": 0,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "nested",
+      "origin": "2025-08-31",
+      "rows": 155916,
+      "changed_rows": 0,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "nested",
+      "origin": "2025-09-30",
+      "rows": 157194,
+      "changed_rows": 0,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "nested",
+      "origin": "2025-10-31",
+      "rows": 153360,
+      "changed_rows": 0,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "nested",
+      "origin": "2025-12-31",
+      "rows": 153360,
+      "changed_rows": 1008,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "nested",
+      "origin": "2026-02-28",
+      "rows": 155916,
+      "changed_rows": 2016,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "nested",
+      "origin": "2026-03-31",
+      "rows": 116298,
+      "changed_rows": 1008,
+      "metrics_recalculated": true
+    },
+    {
+      "path": "nested",
+      "origin": "2026-04-30",
+      "rows": 77958,
+      "changed_rows": 1008,
+      "metrics_recalculated": true
+    }
+  ]
+}

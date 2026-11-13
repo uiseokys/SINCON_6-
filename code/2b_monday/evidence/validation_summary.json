@@ -1,0 +1,22 @@
+[
+  {
+    "path": "nested",
+    "origins": 9,
+    "active": 4,
+    "improved": 4,
+    "worsened": 0,
+    "unchanged": 0,
+    "best_delta": -3.33121838226591e-05,
+    "worst_delta": -5.481546770935708e-06
+  },
+  {
+    "path": "old",
+    "origins": 9,
+    "active": 4,
+    "improved": 4,
+    "worsened": 0,
+    "unchanged": 0,
+    "best_delta": -3.331052612923213e-05,
+    "worst_delta": -5.665867822052251e-06
+  }
+]

@@ -1,0 +1,18 @@
+example_id,event,date,station_id,hour,current,hedged,full,audience,ratio,share,weight,ratio_judgment,shape_judgment,mix_judgment,judgment,alternative
+J093669,PLAVE,2026-09-12,3127,21,1111.760411112941,414.1529546319229,271.08,23120,0.3,0.03,0.7,타당,근거 부족,근거 부족,근거 부족,Keep accepted main; 22h coefficient 0.1732267021; do not force 21/23 shares
+J093670,PLAVE,2026-09-12,3127,22,4026.501351809196,5271.451973266019,5916.599999999999,23120,0.3,0.85,0.7,타당,근거 부족,근거 부족,근거 부족,Keep accepted main; 22h coefficient 0.1732267021; do not force 21/23 shares
+J093671,PLAVE,2026-09-12,3127,23,233.92486067199124,571.3551205009853,837.3199999999999,23120,0.3,0.12,0.7,타당,근거 부족,근거 부족,근거 부족,Keep accepted main; 22h coefficient 0.1732267021; do not force 21/23 shares
+J094947,PLAVE,2026-09-13,3127,21,762.9783089585429,298.44873606787354,199.446,19494,0.3,0.03,0.7,타당,근거 부족,근거 부족,근거 부족,Keep accepted main; 22h coefficient 0.1732267021; do not force 21/23 shares
+J094948,PLAVE,2026-09-13,3127,22,3391.881330111093,4441.795567888312,4985.969999999999,19494,0.3,0.85,0.7,타당,근거 부족,근거 부족,근거 부족,Keep accepted main; 22h coefficient 0.1732267021; do not force 21/23 shares
+J094949,PLAVE,2026-09-13,3127,23,147.01407144376662,441.17236672972854,705.784,19494,0.3,0.12,0.7,타당,근거 부족,근거 부족,근거 부족,Keep accepted main; 22h coefficient 0.1732267021; do not force 21/23 shares
+J075776,Sustainable,2026-08-29,3127,20,223.17582994784655,337.4580462972473,510.0,12000,0.3,0.1,0.5,근거 부족,근거 부족,근거 부족,근거 부족,"Keep main; daily audience 12000, exit shape and W lack independent donors"
+J075777,Sustainable,2026-08-29,3127,21,443.8053369727786,589.5314421660024,783.0,12000,0.3,0.2,0.5,근거 부족,근거 부족,근거 부족,근거 부족,"Keep main; daily audience 12000, exit shape and W lack independent donors"
+J075778,Sustainable,2026-08-29,3127,22,408.63763993514596,819.1371865569256,1641.0,12000,0.3,0.45,0.5,근거 부족,근거 부족,근거 부족,근거 부족,"Keep main; daily audience 12000, exit shape and W lack independent donors"
+J075779,Sustainable,2026-08-29,3127,23,68.36285075578468,249.6845483565769,905.0,12000,0.3,0.25,0.5,근거 부족,근거 부족,근거 부족,근거 부족,"Keep main; daily audience 12000, exit shape and W lack independent donors"
+J077054,Sustainable,2026-08-30,3127,20,149.34457901796614,243.6163168088967,397.0,12000,0.3,0.1,0.5,근거 부족,근거 부족,근거 부족,근거 부족,"Keep main; daily audience 12000, exit shape and W lack independent donors"
+J077055,Sustainable,2026-08-30,3127,21,254.9035288049421,435.6327163185117,744.0,12000,0.3,0.2,0.5,근거 부족,근거 부족,근거 부족,근거 부족,"Keep main; daily audience 12000, exit shape and W lack independent donors"
+J077056,Sustainable,2026-08-30,3127,22,236.3255434174002,622.1088099448335,1635.0,12000,0.3,0.45,0.5,근거 부족,근거 부족,근거 부족,근거 부족,"Keep main; daily audience 12000, exit shape and W lack independent donors"
+J077057,Sustainable,2026-08-30,3127,23,40.81805421316341,193.53878549768126,904.0,12000,0.3,0.25,0.5,근거 부족,근거 부족,근거 부족,근거 부족,"Keep main; daily audience 12000, exit shape and W lack independent donors"
+J138398,Landers,2026-10-17,3127,20,788.9979810702512,1602.818389458338,3255.0,23000,0.3,0.45,0.5,타당,과함,근거 부족,과함,Use prior same-series count-excess profile as diagnostic; no validated W or timing split
+J138399,Landers,2026-10-17,3127,21,1169.2653452472705,2026.883730197298,3513.0,23000,0.3,0.5,0.5,타당,근거 부족,근거 부족,근거 부족,Use prior same-series count-excess profile as diagnostic; no validated W or timing split
+J138400,Landers,2026-10-17,3127,22,285.90716711096917,323.49180317802455,366.0,23000,0.3,0.05,0.5,타당,근거 부족,근거 부족,근거 부족,Use prior same-series count-excess profile as diagnostic; no validated W or timing split

@@ -1,0 +1,462 @@
+{
+  "python": "3.12.15",
+  "pandas": "3.1.1",
+  "numpy": "2.5.4",
+  "stages": [
+    {
+      "stage": 0,
+      "file": "submission_night_v4_main.csv",
+      "rows": 157194,
+      "ids_and_order_match": true,
+      "max_abs_log1p_diff": 8.881784197001252e-16,
+      "byte_identical": false,
+      "sha256": "b1b8a74dfece0eeded0c88e66033668eb70552f89544f4bb8a764cfe99d40d76",
+      "reference_sha256": "4c85257294be267c47396587f3a71a2d1e238dc93f957a634cfe662f8e379965"
+    },
+    {
+      "stage": 1,
+      "file": "submission_k1_hourbias.csv",
+      "rows": 157194,
+      "ids_and_order_match": true,
+      "max_abs_log1p_diff": 8.881784197001252e-16,
+      "byte_identical": false,
+      "sha256": "300d764f6c0b008509de6dd6e7563dcc4f2d7a1376a1ca4ac081cef65a6ef18b",
+      "reference_sha256": "b8d7499f2151efb85c3c3496cb27a16538f1dba8b6009914b655558c338cb1fb"
+    },
+    {
+      "stage": 2,
+      "file": "submission_k3_hourbias_holiday_events.csv",
+      "rows": 157194,
+      "ids_and_order_match": true,
+      "max_abs_log1p_diff": 8.881784197001252e-16,
+      "byte_identical": false,
+      "sha256": "567291d82be69d4bb7d311d4cf6380c95d57e41fe91be8db717c0e6ab035de09",
+      "reference_sha256": "92a0f8dd6b0fa3f2ebea7b67355b4c426bb4ca200c6c24f4563a02d2cd9c0962"
+    },
+    {
+      "stage": 3,
+      "file": "submission_k3_geomdan_plave.csv",
+      "rows": 157194,
+      "ids_and_order_match": true,
+      "max_abs_log1p_diff": 8.881784197001252e-16,
+      "byte_identical": false,
+      "sha256": "fe33b5ea2d5310c4b2636d7cefeaa9aa09f99db5b3ce0dab82ac32f15fb3e2ed",
+      "reference_sha256": "05e0af686e92c9d1e44c0f2ed0b0ae57b1c4895a54fd6ba3421a95c426c77b04"
+    },
+    {
+      "stage": 4,
+      "file": "submission_k3_geomdan_plave_seasonal_refit.csv",
+      "rows": 157194,
+      "ids_and_order_match": true,
+      "max_abs_log1p_diff": 8.881784197001252e-16,
+      "byte_identical": false,
+      "sha256": "b866081be47f36aea1ea7f8e4f30a06ec355ef8e6b05dc284e2051b7ba985818",
+      "reference_sha256": "e46feb831db69a8805317aced422abe2e443e006779e0b476048caf73afddcbb"
+    },
+    {
+      "stage": 5,
+      "file": "submission_set2_l1_on_refit.csv",
+      "rows": 157194,
+      "ids_and_order_match": true,
+      "max_abs_log1p_diff": 8.881784197001252e-16,
+      "byte_identical": false,
+      "sha256": "e9309e882543afae86615a16caa79e5eca13108131aeb4f4cd6a1fd29f4eb50e",
+      "reference_sha256": "1edf020db6b728611f617a153a5052afcf058edade19ff5e284ea3c57e0ed59c"
+    },
+    {
+      "stage": 6,
+      "file": "submission_l1_hourly_curvature.csv",
+      "rows": 157194,
+      "ids_and_order_match": true,
+      "max_abs_log1p_diff": 8.881784197001252e-16,
+      "byte_identical": false,
+      "sha256": "ffcf0ebf7e385705f361b09e4fe04b2a1e51e7ae2cc7cabed9cf7f7494a63427",
+      "reference_sha256": "3d9a6f4f3eb2653321835f2873fc6695bff76dbdb78fcab7fac74a9250c97e97"
+    },
+    {
+      "stage": 7,
+      "file": "submission_xgb7_w10_on_curvature.csv",
+      "rows": 157194,
+      "ids_and_order_match": true,
+      "max_abs_log1p_diff": 8.881784197001252e-16,
+      "byte_identical": false,
+      "sha256": "8e1661f54ae6177e420d3ebcf3191c0b8dad4cab33afceef857abae63d537ef5",
+      "reference_sha256": "596876180bb00eda250041cc6cf8ada4c6aa4702547f7e14a94ffe1340e3b1a6"
+    }
+  ],
+  "details": {
+    "1_k1": {
+      "history_rows": 88668,
+      "history_first_date": "2026-04-08",
+      "history_last_date": "2026-06-30",
+      "history_origins": [
+        "2026-03-31",
+        "2026-04-30"
+      ],
+      "cells_with_correction": 8064,
+      "changed_rows": 129636,
+      "changed_station_days": 7202,
+      "max_abs_log_change": 0.07437426046926117
+    },
+    "2_k3": {
+      "monday_rows": 2016,
+      "cup_walk_rows": 11
+    },
+    "3_geomdan_plave": {
+      "lake": {
+        "sign": 1,
+        "effect": 0.0748088716347378,
+        "median_daily_residual": 0.1496177432694756,
+        "fit_start": "2026-05-06",
+        "fit_end": "2026-06-30",
+        "fit_dates": 50,
+        "by_month": {
+          "2026-05": {
+            "days": 22,
+            "mean_daily_residual": 0.14274948231570844
+          },
+          "2026-06": {
+            "days": 28,
+            "mean_daily_residual": 0.14534808406534963
+          }
+        }
+      },
+      "lake_rows": 1872,
+      "plave_rows": 4,
+      "plave_profile": {
+        "0": -0.105,
+        "1": -0.105
+      },
+      "plave_donors": [
+        "jin",
+        "muse",
+        "park_hyo_shin",
+        "ye"
+      ],
+      "plave_validation": {
+        "park_hyo_shin": {
+          "cutoff": "2026-02-28",
+          "donors": [
+            "jin",
+            "muse",
+            "ye"
+          ],
+          "rows": 6,
+          "baseline": 0.5806762042315715,
+          "candidate": 0.49140527773071235,
+          "changed_rows": 6
+        },
+        "muse": {
+          "cutoff": "2025-08-31",
+          "donors": [
+            "ye"
+          ],
+          "rows": 2,
+          "baseline": 0.22117568220715403,
+          "candidate": 0.17467241299231898,
+          "changed_rows": 1
+        },
+        "jin": {
+          "cutoff": "2025-09-30",
+          "donors": [
+            "muse",
+            "ye"
+          ],
+          "rows": 4,
+          "baseline": 0.6832190466140866,
+          "candidate": 0.6321282196635659,
+          "changed_rows": 2
+        }
+      },
+      "plave_pooled_validation": {
+        "rows": 12,
+        "baseline": 0.5764907886217958,
+        "candidate": 0.5089400857002413,
+        "sse_improvement": 0.8798594223985332
+      }
+    },
+    "4_seasonal": {
+      "fit_days": 327,
+      "seasonal_rows": 118134,
+      "max_abs_log_change": 0.03126563860890429
+    },
+    "5_l1": {
+      "selected_rows": 11790,
+      "by_station": {
+        "3107": 10,
+        "3108": 113,
+        "3109": 113,
+        "3127": 104,
+        "3139": 94,
+        "3209": 110,
+        "3754": 111
+      }
+    },
+    "6_curvature": {
+      "changed_rows": 113274,
+      "max_abs_log_change": 0.065,
+      "observed_max_date": "2026-06-30"
+    },
+    "7_xgb_delta": {
+      "weight": 0.1,
+      "selected_rows": 13662,
+      "max_abs_log_change": 0.1249090480168734
+    }
+  },
+  "input_audit": [
+    {
+      "path": "data/train.csv",
+      "role": "subway_observations",
+      "min_date": "date=2025-01-01",
+      "max_date": "date=2026-06-30",
+      "interpretation": "승하차 실측 또는 실측 log 포함: 2026-06-30 이하 확인"
+    },
+    {
+      "path": "data/test.csv",
+      "role": "unlabeled_test_keys",
+      "min_date": "date=2026-07-01",
+      "max_date": "date=2026-10-31",
+      "interpretation": "예측 대상 키, 승하차 실측 없음"
+    },
+    {
+      "path": "cache/hourbias_history_oof.csv.gz",
+      "role": "historical_oof_with_labels",
+      "min_date": "date=2026-04-08; origin=2025-12-31",
+      "max_date": "date=2026-06-30; origin=2026-04-30",
+      "interpretation": "승하차 실측 또는 실측 log 포함: 2026-06-30 이하 확인"
+    },
+    {
+      "path": "cache/calendar_flags.csv",
+      "role": "calendar_or_event_metadata",
+      "min_date": "date=2025-01-01",
+      "max_date": "date=2026-10-31",
+      "interpretation": "달력·행사 범위·역 메타데이터, 승하차 실측 없음"
+    },
+    {
+      "path": "cache/events_frozen_v3.csv",
+      "role": "calendar_or_event_metadata",
+      "min_date": "date=2025-03-20",
+      "max_date": "date=2026-10-17",
+      "interpretation": "달력·행사 범위·역 메타데이터, 승하차 실측 없음"
+    },
+    {
+      "path": "cache/protected_event_keys.csv",
+      "role": "calendar_or_event_metadata",
+      "min_date": "date=2026-07-11",
+      "max_date": "date=2026-10-31",
+      "interpretation": "달력·행사 범위·역 메타데이터, 승하차 실측 없음"
+    },
+    {
+      "path": "cache/downstream_oof_nested_main.csv.gz",
+      "role": "historical_oof_with_labels",
+      "min_date": "date=2025-07-01; origin=2025-06-30",
+      "max_date": "date=2026-06-30; origin=2026-04-30",
+      "interpretation": "승하차 실측 또는 실측 log 포함: 2026-06-30 이하 확인"
+    },
+    {
+      "path": "cache/calendar_features.csv",
+      "role": "calendar_or_event_metadata",
+      "min_date": "date=2025-01-01",
+      "max_date": "date=2026-10-31",
+      "interpretation": "달력·행사 범위·역 메타데이터, 승하차 실측 없음"
+    },
+    {
+      "path": "cache/events_daily.csv",
+      "role": "calendar_or_event_metadata",
+      "min_date": "date=2025-03-20",
+      "max_date": "date=2026-10-25",
+      "interpretation": "달력·행사 범위·역 메타데이터, 승하차 실측 없음"
+    },
+    {
+      "path": "cache/festival_station_days.csv",
+      "role": "calendar_or_event_metadata",
+      "min_date": "date=2025-03-29",
+      "max_date": "date=2026-10-27",
+      "interpretation": "달력·행사 범위·역 메타데이터, 승하차 실측 없음"
+    },
+    {
+      "path": "cache/historical_concerts.csv",
+      "role": "calendar_or_event_metadata",
+      "min_date": "date=2025-03-20",
+      "max_date": "date=2026-04-11",
+      "interpretation": "달력·행사 범위·역 메타데이터, 승하차 실측 없음"
+    },
+    {
+      "path": "reference/submission_night_v4_main.csv",
+      "role": "comparison_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결"
+    },
+    {
+      "path": "reference/submission_k1_hourbias.csv",
+      "role": "comparison_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결"
+    },
+    {
+      "path": "reference/submission_k3_hourbias_holiday_events.csv",
+      "role": "comparison_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결"
+    },
+    {
+      "path": "inputs/submission_monday_main.csv",
+      "role": "archived_K2_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결"
+    },
+    {
+      "path": "inputs/submission_night_v4_main_cup_walk.csv",
+      "role": "archived_K2_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결"
+    },
+    {
+      "path": "reference/submission_k3_geomdan_plave.csv",
+      "role": "comparison_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결"
+    },
+    {
+      "path": "reference/submission_k3_geomdan_plave_seasonal_refit.csv",
+      "role": "comparison_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결"
+    },
+    {
+      "path": "reference/submission_l1_hourly_curvature.csv",
+      "role": "comparison_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결"
+    },
+    {
+      "path": "reference/submission_set2_l1_on_refit.csv",
+      "role": "comparison_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결"
+    },
+    {
+      "path": "reference/submission_xgb7_w10_on_curvature.csv",
+      "role": "comparison_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; 날짜는 test.csv와 ID 연결"
+    },
+    {
+      "path": "predictions/xgb_test.npy",
+      "role": "archived_test_log_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; test.csv 행 순서"
+    },
+    {
+      "path": "predictions/lgb_test.npy",
+      "role": "archived_test_log_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; test.csv 행 순서"
+    },
+    {
+      "path": "predictions/base_test_s0.npy",
+      "role": "archived_test_log_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; test.csv 행 순서"
+    },
+    {
+      "path": "predictions/base_test_s1.npy",
+      "role": "archived_test_log_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; test.csv 행 순서"
+    },
+    {
+      "path": "predictions/base_test_s2.npy",
+      "role": "archived_test_log_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; test.csv 행 순서"
+    },
+    {
+      "path": "predictions/base_test_s3.npy",
+      "role": "archived_test_log_prediction",
+      "min_date": "2026-07-01",
+      "max_date": "2026-10-31",
+      "interpretation": "시험기간 예측, 실측 아님; test.csv 행 순서"
+    },
+    {
+      "path": "inputs/k2_overlay_keys.csv",
+      "role": "archived_overlay_scope",
+      "min_date": "date=2026-07-29",
+      "max_date": "date=2026-10-17",
+      "interpretation": "달력·행사 범위·역 메타데이터, 승하차 실측 없음"
+    },
+    {
+      "path": "training_scripts/team_features/external/munhak_games.csv",
+      "role": "training_exogenous_metadata",
+      "min_date": "game_date=2025-03-10",
+      "max_date": "game_date=2026-10-09",
+      "interpretation": "외생 경기·관중·학교·날씨, 지하철 실측 아님"
+    },
+    {
+      "path": "training_scripts/team_features/external/crowd_munhak.csv",
+      "role": "training_exogenous_metadata",
+      "min_date": "date=2025-03-22",
+      "max_date": "date=2026-10-09",
+      "interpretation": "외생 경기·관중·학교·날씨, 지하철 실측 아님"
+    },
+    {
+      "path": "training_scripts/team_features/external/events_daily.csv",
+      "role": "training_exogenous_metadata",
+      "min_date": "date=2025-03-20",
+      "max_date": "date=2026-10-25",
+      "interpretation": "외생 경기·관중·학교·날씨, 지하철 실측 아님"
+    },
+    {
+      "path": "training_scripts/team_features/external/school_calendar.csv",
+      "role": "training_exogenous_metadata",
+      "min_date": "date=2025-01-01",
+      "max_date": "date=2026-10-31",
+      "interpretation": "외생 경기·관중·학교·날씨, 지하철 실측 아님"
+    },
+    {
+      "path": "training_scripts/team_features/external/weather_hourly.csv",
+      "role": "training_exogenous_metadata",
+      "min_date": "date=2025-01-01",
+      "max_date": "date=2026-10-31",
+      "interpretation": "외생 경기·관중·학교·날씨, 지하철 실측 아님"
+    },
+    {
+      "path": "training_scripts/team_features/data/metaData.csv",
+      "role": "station_metadata",
+      "min_date": "날짜 없음",
+      "max_date": "날짜 없음",
+      "interpretation": "달력·행사 범위·역 메타데이터, 승하차 실측 없음"
+    },
+    {
+      "path": "training_scripts/team_features/data/train.csv",
+      "role": "subway_observations",
+      "min_date": "date=2025-01-01",
+      "max_date": "date=2026-06-30",
+      "interpretation": "승하차 실측 또는 실측 log 포함: 2026-06-30 이하 확인"
+    },
+    {
+      "path": "training_scripts/team_features/data/test.csv",
+      "role": "unlabeled_test_keys",
+      "min_date": "date=2026-07-01",
+      "max_date": "date=2026-10-31",
+      "interpretation": "예측 대상 키, 승하차 실측 없음"
+    }
+  ],
+  "final_sha256": "8e1661f54ae6177e420d3ebcf3191c0b8dad4cab33afceef857abae63d537ef5",
+  "expected_final_sha256": "596876180bb00eda250041cc6cf8ada4c6aa4702547f7e14a94ffe1340e3b1a6"
+}

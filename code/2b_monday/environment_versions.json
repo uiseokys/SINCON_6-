@@ -1,0 +1,59 @@
+{
+  "packages": {
+    "py311": [
+      {
+        "name": "numpy",
+        "version": "2.2.6"
+      },
+      {
+        "name": "pandas",
+        "version": "2.2.3"
+      },
+      {
+        "name": "pip",
+        "version": "26.2.1"
+      },
+      {
+        "name": "python-dateutil",
+        "version": "4.0.0"
+      },
+      {
+        "name": "pytz",
+        "version": "2026.6"
+      },
+      {
+        "name": "setuptools",
+        "version": "84.0.0"
+      },
+      {
+        "name": "tzdata",
+        "version": "2026.6"
+      }
+    ],
+    "py312": [
+      {
+        "name": "numpy",
+        "version": "2.5.4"
+      },
+      {
+        "name": "pandas",
+        "version": "3.1.1"
+      },
+      {
+        "name": "pip",
+        "version": "25.0.1"
+      },
+      {
+        "name": "python-dateutil",
+        "version": "4.0.0"
+      },
+      {
+        "name": "tzdata",
+        "version": "2026.6"
+      }
+    ]
+  },
+  "randomness": "none",
+  "seed": null,
+  "note": "Deterministic arithmetic. Local macOS arm64 environments only. Dependency wheels and virtualenvs are excluded from the ZIP."
+}

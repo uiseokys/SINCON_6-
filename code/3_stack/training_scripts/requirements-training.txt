@@ -1,0 +1,7 @@
+# Optional retraining only; not required by the reproduction notebook.
+# This is a specified rerun environment, not a verified lockfile of archived training.
+numpy==2.5.4
+pandas==3.1.1
+xgboost==3.4.1
+lightgbm==4.6.0
+torch==2.9.1

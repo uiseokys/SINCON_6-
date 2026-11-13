@@ -1,0 +1,182 @@
+{
+  "base_sha256": "4c85257294be267c47396587f3a71a2d1e238dc93f957a634cfe662f8e379965",
+  "archived_oof_sha256": "ddbcd6e1be65257c1749e6acebb93c064ee07d60e57d435b9557299affd22df1",
+  "folds": {
+    "2025-07-31": {
+      "origin": "2025-07-31",
+      "fire_strict_origin": {
+        "rows": 155916,
+        "changed": 12,
+        "overall_before": 0.17399851673951772,
+        "overall_after": 0.17355173095886614,
+        "window_before": 1.8844789692457244,
+        "window_after": 1.238426960120823
+      },
+      "walk_next_event": {
+        "rows": 155916,
+        "changed": 7,
+        "overall_before": 0.17399851673951772,
+        "overall_after": 0.17398004815166943,
+        "window_before": 0.5799518008712327,
+        "window_after": 0.4395431945976321,
+        "event_origin": "2025-09-27"
+      }
+    },
+    "2025-08-31": {
+      "origin": "2025-08-31",
+      "fire_strict_origin": {
+        "rows": 155916,
+        "changed": 6,
+        "overall_before": 0.17440619505813512,
+        "overall_after": 0.17406907300461635,
+        "window_before": 1.9170102003391292,
+        "window_after": 0.7887500635566963
+      },
+      "walk_next_event": {
+        "rows": 155916,
+        "changed": 7,
+        "overall_before": 0.17440619505813512,
+        "overall_after": 0.1743900319300588,
+        "window_before": 0.5397697260812241,
+        "window_after": 0.4071611685138287,
+        "event_origin": "2025-09-27"
+      }
+    },
+    "2025-09-30": {
+      "origin": "2025-09-30",
+      "walk_strict_origin": {
+        "rows": 157194,
+        "changed": 7,
+        "overall_before": 0.1687673390127384,
+        "overall_after": 0.1687557744115271,
+        "window_before": 0.4416784841514653,
+        "window_after": 0.32775876734890635,
+        "event_origin": "2025-09-30"
+      }
+    },
+    "2026-03-31": {
+      "origin": "2026-03-31",
+      "fire_strict_origin": {
+        "rows": 116298,
+        "changed": 14,
+        "overall_before": 0.148311092297312,
+        "overall_after": 0.14780936526976265,
+        "window_before": 1.3086580718617513,
+        "window_after": 0.6916656422904776
+      }
+    },
+    "2026-04-30": {
+      "origin": "2026-04-30",
+      "fire_strict_origin": {
+        "rows": 77958,
+        "changed": 14,
+        "overall_before": 0.1426029169727982,
+        "overall_after": 0.14172843848377112,
+        "window_before": 1.3717408569008978,
+        "window_after": 0.7050742427138869
+      }
+    },
+    "A": {
+      "origin": "2026-02-28",
+      "fire_strict_origin": {
+        "rows": 155916,
+        "changed": 14,
+        "overall_before": 0.14932325357487394,
+        "overall_after": 0.14895661243719305,
+        "window_before": 1.3032200954336293,
+        "window_after": 0.6931358653865581
+      }
+    },
+    "summer": {
+      "origin": "2025-06-30",
+      "walk_next_event": {
+        "rows": 157194,
+        "changed": 7,
+        "overall_before": 0.2522930244721156,
+        "overall_after": 0.252287599617898,
+        "window_before": 0.3537307554725721,
+        "window_after": 0.2523021761604561,
+        "event_origin": "2025-09-27"
+      }
+    }
+  },
+  "target": {
+    "fire": {
+      "date": "2026-10-31",
+      "station_id": 3127,
+      "base_day_total": 2597.619404901208,
+      "base_window": [
+        136.7664,
+        162.0158,
+        196.5201,
+        989.4921,
+        236.7291,
+        80.0476,
+        65.4587
+      ],
+      "pre_model_window": [
+        140.1117,
+        165.9742,
+        201.3163,
+        1013.5431,
+        242.5016,
+        82.0156,
+        67.0724
+      ],
+      "nearby_same_weekday_window_median": [
+        114.3073,
+        119.9229,
+        120.3939,
+        119.1351,
+        97.5092,
+        67.7889,
+        68.4855
+      ],
+      "protected_hours": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "upstream_events": []
+    },
+    "walk": {
+      "date": "2026-10-17",
+      "station_id": 3226,
+      "base_day_total": 3821.5692636231443,
+      "base_window": [
+        346.7035,
+        345.622,
+        405.7535,
+        485.4727,
+        484.9132,
+        360.5849,
+        201.4875
+      ],
+      "pre_model_window": [
+        351.6811,
+        351.6563,
+        412.5849,
+        495.0478,
+        495.1737,
+        371.6149,
+        208.2278
+      ],
+      "nearby_same_weekday_window_median": [
+        292.3785,
+        287.7613,
+        323.2308,
+        366.4532,
+        386.2292,
+        310.437,
+        184.7682
+      ],
+      "protected_hours": [],
+      "upstream_events": []
+    }
+  }
+}

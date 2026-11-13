@@ -1,0 +1,5 @@
+<실행 폴더>/code/2c_cup_walk/model/build_v4_cup_walk.py:49: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  forecast = pd.read_csv(io.BytesIO(contents), float_precision="round_trip")
+<실행 폴더>/code/2c_cup_walk/model/build_v4_cup_walk.py:49: Pandas4Warning: The 'float_precision' argument is deprecated. Use the default float precision instead.
+  forecast = pd.read_csv(io.BytesIO(contents), float_precision="round_trip")
+157194 rows, 11 changes, SHA-256 93dee18c6e3484c7837a53082920eada9ae9d2506045e9b7e8c262c5bb07a569

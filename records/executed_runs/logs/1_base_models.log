@@ -1,0 +1,90 @@
+
+--- 코드 셀 1/6 ---
+Requirement already satisfied: numpy==2.5.4 in <가상환경>/lib/python3.12/site-packages (2.5.4)
+Requirement already satisfied: pandas==3.1.1 in <가상환경>/lib/python3.12/site-packages (3.1.1)
+Requirement already satisfied: scipy==1.17.1 in <가상환경>/lib/python3.12/site-packages (1.17.1)
+Requirement already satisfied: scikit-learn==1.6.1 in <가상환경>/lib/python3.12/site-packages (1.6.1)
+Requirement already satisfied: lightgbm==4.6.0 in <가상환경>/lib/python3.12/site-packages (4.6.0)
+Requirement already satisfied: torch==2.9.1 in <가상환경>/lib/python3.12/site-packages (2.9.1)
+Requirement already satisfied: xgboost==3.4.1 in <가상환경>/lib/python3.12/site-packages (3.4.1)
+Requirement already satisfied: tabicl==2.2.0 in <가상환경>/lib/python3.12/site-packages (2.2.0)
+Requirement already satisfied: einops==0.8.2 in <가상환경>/lib/python3.12/site-packages (0.8.2)
+Requirement already satisfied: huggingface-hub==0.36.0 in <가상환경>/lib/python3.12/site-packages (0.36.0)
+Requirement already satisfied: psutil==7.2.2 in <가상환경>/lib/python3.12/site-packages (7.2.2)
+Requirement already satisfied: tqdm==4.70.1 in <가상환경>/lib/python3.12/site-packages (4.70.1)
+Requirement already satisfied: python-dateutil>=2.9.0 in <가상환경>/lib/python3.12/site-packages (from pandas==3.1.1) (4.0.0)
+Requirement already satisfied: joblib>=1.2.0 in <가상환경>/lib/python3.12/site-packages (from scikit-learn==1.6.1) (1.6.0)
+Requirement already satisfied: threadpoolctl>=3.1.0 in <가상환경>/lib/python3.12/site-packages (from scikit-learn==1.6.1) (3.8.0)
+Requirement already satisfied: filelock in <가상환경>/lib/python3.12/site-packages (from torch==2.9.1) (4.2.10)
+Requirement already satisfied: typing-extensions>=4.10.0 in <가상환경>/lib/python3.12/site-packages (from torch==2.9.1) (4.16.0)
+Requirement already satisfied: setuptools in <가상환경>/lib/python3.12/site-packages (from torch==2.9.1) (84.2.1)
+Requirement already satisfied: sympy>=1.13.3 in <가상환경>/lib/python3.12/site-packages (from torch==2.9.1) (1.14.0)
+Requirement already satisfied: networkx>=2.5.1 in <가상환경>/lib/python3.12/site-packages (from torch==2.9.1) (3.7)
+Requirement already satisfied: jinja2 in <가상환경>/lib/python3.12/site-packages (from torch==2.9.1) (3.1.6)
+Requirement already satisfied: fsspec>=0.8.5 in <가상환경>/lib/python3.12/site-packages (from torch==2.9.1) (2026.9.0)
+Requirement already satisfied: packaging>=20.9 in <가상환경>/lib/python3.12/site-packages (from huggingface-hub==0.36.0) (26.3)
+Requirement already satisfied: pyyaml>=5.1 in <가상환경>/lib/python3.12/site-packages (from huggingface-hub==0.36.0) (6.0.3)
+Requirement already satisfied: requests in <가상환경>/lib/python3.12/site-packages (from huggingface-hub==0.36.0) (2.34.2)
+Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in <가상환경>/lib/python3.12/site-packages (from huggingface-hub==0.36.0) (1.8.0)
+Requirement already satisfied: cloudpickle>=3.0 in <가상환경>/lib/python3.12/site-packages (from joblib>=1.2.0->scikit-learn==1.6.1) (3.1.2)
+Requirement already satisfied: tzdata in <가상환경>/lib/python3.12/site-packages (from python-dateutil>=2.9.0->pandas==3.1.1) (2026.6)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in <가상환경>/lib/python3.12/site-packages (from sympy>=1.13.3->torch==2.9.1) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in <가상환경>/lib/python3.12/site-packages (from jinja2->torch==2.9.1) (3.0.4)
+Requirement already satisfied: charset_normalizer<4,>=2 in <가상환경>/lib/python3.12/site-packages (from requests->huggingface-hub==0.36.0) (3.5.2)
+Requirement already satisfied: idna<4,>=2.5 in <가상환경>/lib/python3.12/site-packages (from requests->huggingface-hub==0.36.0) (3.20)
+Requirement already satisfied: urllib3<3,>=1.26 in <가상환경>/lib/python3.12/site-packages (from requests->huggingface-hub==0.36.0) (2.8.0)
+Requirement already satisfied: certifi>=2023.5.7 in <가상환경>/lib/python3.12/site-packages (from requests->huggingface-hub==0.36.0) (2026.10.23)
+설치 완료. Python: 3.12.15 (main, Oct  3 2026, 00:54:33) [Clang 22.1.3 ]
+
+--- 코드 셀 2/6 ---
+모드: assemble 장치: cpu 스레드: 4
+
+--- 코드 셀 3/6 ---
+패키지: <실행 폴더>/code/1_base_models
+출력 폴더: <실행 폴더>/code/1_base_models/outputs/sincon_assemble_20261113T112904_936662Z
+
+--- 코드 셀 4/6 ---
+assemble: 모든 모델 학습을 생략하고 동결 모델 출력을 사용합니다.
+
+--- 코드 셀 5/6 ---
+시작 01_early | 로그 01_early.log
+완료 01_early: 7.08초
+시작 02_events_before_model | 로그 02_events_before_model.log
+완료 02_events_before_model: 3.61초
+시작 03_model_layers | 로그 03_model_layers.log
+완료 03_model_layers: 13.60초
+시작 04_events_after_model | 로그 04_events_after_model.log
+완료 04_events_after_model: 3.44초
+
+--- 코드 셀 6/6 ---
+{
+  "rows": 157194,
+  "columns": [
+    "example_id",
+    "boardings"
+  ],
+  "official_id_order": true,
+  "finite_nonnegative": true,
+  "max_abs_log1p_difference": 0.0,
+  "rms_log1p_difference": 0.0,
+  "max_abs_boardings_difference": 0.0,
+  "reference_sha256": "519c88bd46e991677316175a2d24f802db6248ebb7d3971ecbe75477532f2199",
+  "output_sha256": "519c88bd46e991677316175a2d24f802db6248ebb7d3971ecbe75477532f2199",
+  "python": "3.12.15 (main, Oct  3 2026, 00:54:33) [Clang 22.1.3 ]",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.6.1",
+    "lightgbm": "4.6.0",
+    "torch": "2.9.1",
+    "xgboost": "3.4.1",
+    "tabicl": "2.2.0"
+  },
+  "mode": "assemble",
+  "device_requested": "cpu",
+  "loaded_numpy": "2.5.4",
+  "loaded_pandas": "3.1.1"
+}
+제출 CSV: <실행 폴더>/code/1_base_models/outputs/sincon_assemble_20261113T112904_936662Z/submission_clean_refined.csv
+<실행 폴더>/code/1_base_models/outputs/sincon_assemble_20261113T112904_936662Z/submission_clean_refined.csv

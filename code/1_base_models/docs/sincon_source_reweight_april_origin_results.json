@@ -1,0 +1,12 @@
+{
+  "origin": "2026-04-30",
+  "end": "2026-06-30",
+  "rows": 77958,
+  "baseline": 0.1447015406088639,
+  "fixed": 0.1464239804417077,
+  "learned": 0.14463064380174273,
+  "prior_calibrated_baseline": 0.14414884309898895,
+  "prior_calibrated_learned": 0.1448742687801262,
+  "pre_origin_days": 181,
+  "overlaps_main_backtests": true
+}
